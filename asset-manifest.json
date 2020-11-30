@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/CHIMOPO--proyect.git/static/css/main.a860c28b.chunk.css",
+    "main.js": "/CHIMOPO--proyect.git/static/js/main.9a172b1a.chunk.js",
+    "main.js.map": "/CHIMOPO--proyect.git/static/js/main.9a172b1a.chunk.js.map",
+    "runtime-main.js": "/CHIMOPO--proyect.git/static/js/runtime-main.b6e04f78.js",
+    "runtime-main.js.map": "/CHIMOPO--proyect.git/static/js/runtime-main.b6e04f78.js.map",
+    "static/js/2.af0a314c.chunk.js": "/CHIMOPO--proyect.git/static/js/2.af0a314c.chunk.js",
+    "static/js/2.af0a314c.chunk.js.map": "/CHIMOPO--proyect.git/static/js/2.af0a314c.chunk.js.map",
+    "index.html": "/CHIMOPO--proyect.git/index.html",
+    "static/css/main.a860c28b.chunk.css.map": "/CHIMOPO--proyect.git/static/css/main.a860c28b.chunk.css.map",
+    "static/js/2.af0a314c.chunk.js.LICENSE.txt": "/CHIMOPO--proyect.git/static/js/2.af0a314c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b6e04f78.js",
+    "static/js/2.af0a314c.chunk.js",
+    "static/css/main.a860c28b.chunk.css",
+    "static/js/main.9a172b1a.chunk.js"
+  ]
+}
