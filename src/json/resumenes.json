@@ -1,0 +1,346 @@
+[
+  {
+    "_id": 1,
+    "unidad": 1,
+    "title": "SISTEMA",
+    "contenido": [
+      "Un sistema es un conjunto de elementos organizados heterogéneos -diferentes- que interactúan entre sí para lograr,fin común, los",
+      "sistemas representados formalmente son representaciones simbólicas de algunos sistemas reales y al abstraerse, se convierten en sistemas o modelos",
+      "Sistema formal = Lenguaje formal + Aparato deductivo."
+    ],
+    "imagen": "imagen1",
+    "extencion": "png"
+  },
+  {
+    "_id": 2,
+    "unidad": 1,
+    "title": "PROPIEDADES DE SISTEMAS",
+    "contenido": [
+      "Coherencia: Si cada teorema o cadena al ser interpretado(a) corresponde a una decisión verdadera. ",
+      "Completitud: Si cada proposición verdadera puede ser representada mediante un teorema. Es incompleto si alguna verdad no puede expresarse. ",
+      "Decidibilidad: Un sistema formal es decidible, si existe un algoritmo que diga en tiempo finito si una cadena cualquiera es un teorema o no lo es. Aquí colocamos como ejemplo el conocido teorema de Pitágoras donde se reúnen"
+    ]
+  },
+  {
+    "_id": 3,
+    "unidad": 1,
+    "title": "LENGUAJE FORMAL",
+    "contenido": "Un lenguaje formal, con el que se denotan los elementos de la realidad modelada, en cierto sentido, estática. "
+  },
+
+  {
+    "_id": 4,
+    "unidad": 1,
+    "title": "APARATO DEDUCTIVO",
+    "contenido": "El aparato deductivo, nos sirve para establecer elementos de la realidad que tienen alguna cualidad interesante (valor numérico, ser o no verdaderos, etc.)."
+  },
+
+  {
+    "_id": 5,
+    "unidad": 1,
+    "title": "TEORIA DE CONJUNTOS",
+    "contenido": "Las matemáticas discretas y el álgebra de Boole se aplica a la teoría de conjuntos para definir, integrar, modelar o representar todos y cada uno de los elementos reales"
+  },
+
+  {
+    "_id": 6,
+    "unidad": 1,
+    "title": "SISTEMA INFORMATICO",
+    "contenido": "un sistema informático nos produce sistemas de información, mismo que al influir el factor humano, también se le considera un sistema inteligente."
+  },
+
+  {
+    "_id": 7,
+    "unidad": 1,
+    "title": "SISTEMAS D EINFORMACION INTELIGENTES",
+    "contenido": "Es la artefactos que emulan el comportamiento y la toma de decisiones que un humano ha programado"
+  },
+  {
+    "_id": 8,
+    "unidad": 1,
+    "title": "programas traductores",
+    "contenido": ["1) Interpretes", "2) Ensambladores", "3) Compiladores"]
+  },
+  {
+    "_id": 9,
+    "unidad": 1,
+    "title": "TEORIA DE CONJUNTOS",
+    "contenido": [
+      "La teoría de conjuntos además es una rama de la lógica que estudia las propiedades de los conjuntos: colecciones abstractas de objetos, consideradas como objetos en sí mismas.",
+      "OBJEOT DE ESTUDIO:'LOS CONJUNTOS'",
+      "La característica esencial de un conjunto es la de estar bien definido.",
+      "Para denotar el nombre de los conjuntos, se usan letras mayúsculas y para denotar a todos los elementos que integran se utilizan letras minúsculas.",
+      [
+        "No hay elementos que se repiten",
+        "No tienen un orden especifico",
+        "Los elementos son simbolos o abstracciones de lo que represemtan"
+      ]
+    ]
+  },
+  {
+    "_id": 10,
+    "unidad": 1,
+    "title": "TEORIA DE A COMPUTABILIDAD ",
+    "contenido": [
+      
+        "COMPUTACIÓN",
+        "es la rama de las ciencias computacionales que estudia la ejecución de un algoritmo el cual se describe como el conjunto de instrucciones, pasos o reglas bien definidas, ordenadas y finitas que permite realizar una actividad mediante pasos sucesivos que no generen dudas a quien deba realizar dicha actividad, por medio de varios sitios (lugares o espacios), dispersos geográficamente, que comparten recursos.",
+      
+        "APLICACIONES DE LA COMPUTACION",
+         
+          "1) Union de dos conjuntos",
+          "2) Interseccion",
+          "3) Conjunto vacio",
+          "4) Conjuntos ajenos",
+          "5) Complemento",
+          "6) Diferencia",
+          "7) Potencia",
+          "8) Igualdad",
+          "9) Producto cartesiano"
+        
+      
+    ]
+  },
+
+  {
+    "_id": 11,
+    "unidad": 1,
+    "title": "LENGUAJES",
+    "contenido": [
+      "CARACTERISTICAS:",
+      " 1) Abstracción: evitar enunciar algo más de una vez.",
+      "2) Concisión notacional.: La sintaxis debe ser legible por el programador, código demasiado largo",
+      "3) Eficiencia: técnicas de optimización",
+      "4) Expresividad. El programador debe poder expresar sus intenciones.",
+      "5) Extensibilidad. El lenguaje debe facilitar mecanismos para que el programador",
+      "6) Librerías e interacción con el exterior",
+      "7) Ortogonalidad. Ofrece la posibilidad de combinar características de todas las formas posibles",
+      "8) Portabilidad. El lenguaje debe facilitar la creación de programas que funcionen en el mayor número de entornos computacionales.",
+      "9) Seguridad",
+        "LENGUAJE ENSAMBLADOR",
+        
+          "Consiste en una selección de abreviaturas (mnemónicos o mnemoclaves), se usan nombres (identificadores) en lugar de códigos binarios para operaciones, y también se usan nombres (también identificadores) para las direcciones de memoria.",
+          "VENTAJAS:",
+          "Mayor adaptación al equipo, sencillez siempre que se domine la arquitectura de la computadora.",
+          "Posibilidad de obtener la máxima velocidad con mínimo uso de memoria.",
+          "DESVENTAJAS:",
+          "Imposibilidad de escribir código independiente de la máquina. ",
+          "Mayor dificultad en la programación y en la comprensión de los programas.",
+        
+        "LENGUAJES DE ALTO NIVEL",
+         
+          "Se conoce por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, tambien por permitir gran flexibilidad al programador",
+          "EJEMPLOS:",
+          "Lexico, C, C#, Basic",
+        
+      "LENGUAJES DE NIVEL INTERMEDIO",
+       "Son los lenguajes que se encuentran entre los lenguajes de alto y bajo nivel, esto porque muchas veces se pueden considerar de alto nivel y permiten ciertos manejos de bajo nivel",
+      "LENGUAJES DE BAJO NIVEL",
+        "Son aquellos en los que sus instrucciones ejercen control directo sobre el  hardware y estan condicionados por la estructura fisica de las computadoras que lo soportan"
+      
+    ]
+  },
+
+  {
+    "_id": 12,
+    "unidad": 1,
+    "title": "TRADUCTORES",
+    "contenido": [
+      "Es el conjunto de programas, necesarios para lograr la conversión de un código a otro",
+      "1) De alto nivel. Cercanos al hombre y lejanos a las características particulares de la computadora o al lenguaje de máquina.",
+      "2) De nivel intermedio. Estos son poderosos como los lenguajes de bajo nivel (ensambladores) y accesibles al hombre, como son los lenguajes de alto nivel.",
+      "-> Ensambladores ",
+      "3) De bajo nivel. Cercanos a la arquitectura de las computadoras y con gran detalle para el código que realiza el hombre debido a su cercanía con el tipo particular de computadora."
+    ]
+  },
+
+  {
+    "_id": 13,
+    "unidad": 1,
+    "title": "COMPILADORES",
+    "contenido": "Los compiladores están en función del nivel de traducción que se tiene del código fuente.",
+    "imagen": "imagen2",
+    "extencion": "jpeg"
+  },
+
+  {
+    "_id": 14,
+    "unidad": 1,
+    "title": "PARADIGMA",
+    "contenido": [
+      "1) Imperativo. Corresponden a la arquitectura de John Von Newmann “programa almacenado en memoria”, con instrucciones estructuradas, funciones y manejo de memoria dinámica con apuntadores a direcciones de memoria que controla el usuario. \n",
+      "2) Funcional (operacional). Este paradigma está basado en la optimización de los datos que se almacenan en memoria.",
+      "3) Orientado a objetos.",
+      "4) Asíncrono. procesamiento paralelo o vectorial. Este paradigma corresponde a procesos asíncronos (en diferentes tiempos de ejecución).",
+      "5) Síncrono. procesamiento paralelo con alto grado de acoplamiento. Debe de haber una sincronía en todos los procesos que se ejecutan al mismo tiempo.",
+      "6) Transformacional. Este paradigma permite definir reglas sobre argumentos y términos que se re-escriben.",
+      "7) Lógico. Este paradigma emplea la lógica y las reglas de inferencia, tratando de adecuarse al lenguaje natural.",
+      "8) Basado en formas (Form-based). Este es el paradigma que corresponde a todas las hojas electrónicas de cálculo que se han diseñado, desde Visical, Lotus hasta Excel. ",
+      "9) De flujo de datos (dataflow). Los que corresponden a este paradigma se programan a través de elementos gráficos. Un ejemplo de este lenguaje es “Show and Tell”.",
+      "10) Restringido (constraint). especificar la relación y el sistema es el encargado de mantenerla.",
+      "11)Demostracional. ¿Qué quiero? "
+    ]
+  },
+  {
+    "_id": 15,
+    "unidad": 2,
+    "title": "AUTOMATAS",
+    "contenido": [
+      "Un autómata finito es un modelo matemático de un sistema con entradas y salidas discretas. El sistema puede asumir uno de un número finito de estados o configuraciones internas",
+      "Los elementos no terminales los vamos a definir como cadenas, palabras o como se conocen en el mundo de los lenguajes de programación, palabras reservadas que son las instrucciones aceptadas por el lenguaje de programación.",
+      "",
+      "TIPOS DE AUTOMATAS",
+      "--> Autómatas finitos determinístico ",
+      "--> Autómatas finitos no determinísticos",
+      "--> Autómatas finitos o con transiciones",
+      "--> Autómatas finitos o sin transiciones"
+    ]
+  },
+
+  {
+    "_id": 16,
+    "unidad": 2,
+    "title": "CADENAS",
+    "contenido": [
+      "Una cadena es la unión de símbolos o concatenación desde símbolos expresados con cadena vacía épsilon E hasta un número infinito de símbolos",
+      "∑ = alfabeto",
+      "Las cadenas al ser presentadas de una forma particular, pueden ser consideradas expresiones regulares simples que a su vez pueden indicarse formalmente con las operaciones de unión o concatenación."
+    ]
+  },
+
+  {
+    "_id": 17,
+    "unidad": 2,
+    "title": "EXPRESIONES REGULARES",
+    "contenido": "Las expresiones regulares definen el comportamiento, orden o secuencia lógica de un conjunto de elementos conocidos como caracteres."
+  },
+
+  {
+    "_id": 18,
+    "unidad": 2,
+    "title": "AUTOMATAS FINITOS",
+    "contenido": [
+      "El autómata finito es un modelo matemático que consta de una quíntupla, cinco elementos.",
+      "Los AF tienen una, solo una y nada más una transición por cada estado.",
+      "Q = {¿?, A, E} (Estados)",
+      "∑ = {0, 1} (Transiciones)",
+      "sigma =Q x ∑",
+      "S = estado inicial ",
+      "F = estados finales"
+    ]
+  },
+
+  {
+    "_id": 19,
+    "unidad": 2,
+    "title": "TRANSFORMACIÓN AFND CON EPSILON TRANSICIONES",
+    "contenido": [
+      {
+        "title": "A AFND",
+        "contenido": [
+          "Autómata finito determinista con épsilon transiciones y para lograr la transformación a un autómata finito no determinista, hace falta al menos otro símbolo. Ya que recordemos que para que esto se cumpla, debe de haber por cada símbolo del alfabeto una transición.",
+          "Cuando dos autómatas aceptan el mismo lenguaje y uno de ellos es determinista y el otro es no determinista, o bien, uno tiene a épsilon como símbolo aceptado y se conoce como “autómata finito con épsilon transiciones” y otro que no incluye a épsilon o cadena vacía, y a este autómata se le conoce como “autómata finito (que puede ser determinista o no determinista) sin épsilon transiciones”",
+          "Cuando dos autómatas son diferentes, pero aceptan el mismo lenguaje, a esto se le conoce como autómatas equivalentes",
+          "El lenguaje aceptado para este autómata, son todas y cada una de las cadenas que llegan al estado final y este lenguaje a su vez puede incluir una expresión regular o varias de éstas."
+        ]
+      },
+
+      {
+        "title": "A AFD",
+        "contenido": [
+          "Estas transformaciones nos permiten llegar a un autómata mínimo cuyo procesamiento resulta más objetivo y práctico",
+          "Es por esto la razón de que las computadoras se hayan diseñado con sistemas binarios en su lenguaje de máquina."
+        ]
+      }
+    ]
+  },
+  {
+    "_id": 20,
+    "unidad": 3,
+    "title": "GRAMATICA",
+    "contenido": [
+      "Arte que enseña a hablar y escribir correctamente",
+      "Estudio sistemático de los elementos constitutivos de una lengua"
+    ]
+  },
+
+  {
+    "_id": 21,
+    "unidad": 3,
+    "title": "LENGUAJES",
+    "contenido": [
+      {
+        "title": "NATURALES",
+        "contenido": [
+          "Son aquellos que utilizan los seres humanos para comunicarse, éstos son conocidos como idiomas, de los cuales se derivan dialectos, lenguas y tienen sus propias gramáticas cada uno de ellos. ",
+          "tales como el Chino, Japonés, Español, Inglés, Francés, Italiano, Portugués, etc",
+          "Ambigüedades en lenguajes naturales",
+          "Para poder describir a los lenguajes naturales, podemos escribir reglas como las que enumeramos en el siguiente conjunto Pn"
+        ]
+      },
+      {
+        "title": "INDEPENDIENTES DE CONTEXTO",
+        "contenido": "También se conocen con el nombre de gramáticas libres de contexto, son un método recursivo sencillo de especificación de reglas gramaticales con las que se pueden generar cadenas (palabras) de un lenguaje."
+      }
+    ]
+  },
+
+  {
+    "_id": 22,
+    "unidad": 3,
+    "title": "JERARQUIA DE CHOMSKY",
+    "contenido": [
+      "Hay distintos tipos de gramáticas formales que generan a su vez lenguajes formales, dentro de estos están los definidos por la jerarquía descrita por Noam Chomsky en 1956.",
+      "Chomsky definió cuatro tipos distintos de gramáticas en función de la forma de las reglas de la derivación P. La clasificación comienza con un tipo de gramáticas que pretenden ser universal, aplicando restricciones a sus reglas de derivación se van obteniendo los otros tipos de gramáticas. Esta clasificación es jerárquica, es decir cada tipo de gramáticas engloba a todos los tipos siguientes.",
+      "Dos tipos importantes son las gramáticas libres de contexto (Tipo 2) y las gramáticas regulares (Tipo 3).",
+      "Para subconjuntos de gramáticas libres de contexto, existen algoritmos para generar analizadores sintácticos LL y analizadores sintácticos LR eficientes, mismos que se explicaran en el tema de los árboles de derivación y, que permiten reconocer los correspondientes lenguajes generados por esas gramáticas.",
+
+      "GRAMATICAS TIPO 0",
+       
+          "Recursivamente enumerables (LRE) Para este tipo de gramáticas no restringidas o gramáticas con estructura de frase. Las reglas de derivación son de la forma: ",
+          "a --> B",
+          "Siendo ∝→ ( ∪ ) ∈ ( ∪ ) ∗, es decir la única restricción es que no puede haber reglas de la forma → donde la cadena vacía.",
+        
+      "GRAMATICAS TIPO 1",
+        
+          "Dependientes del contexto (LSC) También llamadas gramáticas sensibles al contexto, en estas las reglas de producción son de la siguiente forma: ",
+          "αAβ→ αγβ Siendo A ∈ V; ,a,B (V ∪ V)∗ y (V ∪ V)+",
+          "Estas gramáticas se llaman sensibles al contexto, pues se puede reemplazar A por siempre que estén en el contexto a ......B",
+        "GRAMATICAS TIPO 2",
+        
+          " Independiente del contexto (LLC) Estás gramáticas se denominan gramáticas libres de contexto, las reglas de producción de estas solo admiten tener un símbolo no terminal en su parte izquierda, es decir son de la forma: A→ α",
+          "Siendo A ∈ V. y a ∈ (V ∪ V)+",
+        "GRAMATICAS TIPO 3",
+        "Las gramáticas de tipo 3 también se denominan regulares o gramáticas lineales a la derecha comienzan sus reglas de producción por un símbolo terminal, puede serseguido o no por un símbolo no terminal"
+      
+    ]
+  },
+
+  {
+    "_id": 23,
+    "unidad": 3,
+    "title": "TEOREMA DE JERARQUIA",
+    "contenido": "Sobre un alfabeto dado, el conjunto de los lenguajes recursivamente enumerables (tipo 0) contienen propiamente al conjunto de los lenguajes sensibles al contexto (tipo 1), que contiene propiamente al conjunto de los lenguajes independientes del contexto (tipo 2), que a su vez contienen propiamente a los lenguajes regulares (tipo 3).Una gramática consta de una o más variables que representan las clases de cadenas, es decir, los lenguajes de programación que son manipulables mediante la abstracción matemática. Lo contrario a los lenguajes de programación para computadoras son los lenguajes naturales."
+  },
+
+  {
+    "_id": 24,
+    "unidad": 3,
+    "title": "LENGUAJES FORMALES",
+    "contenido": "En los lenguajes formales no existe el análisis morfológico que es el de género, número y persona, es decir el que controla la concordancia entre sujeto y verbo o la concordancia entre artículo, sustantivo y adjetivo"
+  },
+
+  {
+    "_id": 25,
+    "unidad": 3,
+    "title": "ARBOLES DE DERIVACIÓN",
+    "contenido": [
+      "Un árbol de derivación permite mostrar gráficamente cómo se pueden derivar cualquier cadena de un lenguaje a partir del símbolo distinguido de una gramática que genera ese lenguaje.\n Un árbol es un conjunto de puntos, llamados nodos, unidos por líneas llamadas arcos \n Un arco conecta dos puntos distintos. Para ser un árbol un conjunto de nodos y arcos debe satisfacer ciertas propiedades: \n - Todos los nodos están conectados al nodo raíz mediante un único camino. \n- Los nodos que no tienen hijos se denominan hojas, el resto de los nodos se denominan nodos interiores.",
+      "DERIVACIONES UTILIZANDO UNA GRAMATICA",
+      "Aplicamos las producciones de un GIC para inferir que determinadas cadenas pertenecen al lenguaje de una cierta variable \nEl más convencional de ellos consiste en emplear las reglas para pasar del cuerpo a la cabeza. \n-- Tomamos cadenas que sabemos que pertenecen al lenguaje de cada una de las variables del cuerpo.  \n-- Concatenar en el orden apropiado con cualquier símbolo terminal.   \n-- Inferir que la cadena resultante pertenece al lenguaje de la variable de la cabeza.",
+      "RECURSIVIDAD POR LA DERECHA Y POR LA IZQUIERDA",
+      "La recursividad es la característica de una gramática formal, la cual puede ser recursiva o repetitiva cuando existe una producción que se incluye a sí misma dentro de las reglas de producción de la gramática. \nLa recursividad tiene como característica principal la sensación de infinito, de algo que es continuo y que por tanto no puede ser delimitado en el espacio o el tiempo porque se sigue replicando y multiplicando de manera lógica y matemática.  \nAsí, es común encontrar casos de recursividad por ejemplo en imágenes de espejos que hacen que la imagen sea replicada al infinito, una dentro de otra hasta que deja de verse, pero no por eso deja de existir. \nEn la definición de una gramática recursiva (repetitiva hasta el infinito), se presentan algunos problemas en la derivación de palabras que sea de fácil derivación o generación. Es por esto que se tiene la necesidad de eliminar la recursividad por la izquierda o por la derecha para tener palabras definidas en el alfabeto"
+      
+    ]
+  }
+]

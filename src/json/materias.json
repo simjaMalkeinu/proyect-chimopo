@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "title": "TEORIA DE LA COMPUTACION",
+    "active": true
+  },
+  {
+    "id": 2,
+    "title": "FUNDAMENTOS DE PROGRAMACION ORIENTADA AOBJETOS",
+    "active": false
+  },
+  {
+    "id": 3,
+    "title": "MATEMATICAS DISCRETAS",
+    "active": false
+  },
+  {
+    "id": 4,
+    "title": "SISTEMAS DIGITALES",
+    "active": false
+  },
+  {
+    "id": 5,
+    "title": "PROBABILIDAD",
+    "active": false
+  }
+]
