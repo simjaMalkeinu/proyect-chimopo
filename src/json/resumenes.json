@@ -8,6 +8,7 @@
       "sistemas representados formalmente son representaciones simbólicas de algunos sistemas reales y al abstraerse, se convierten en sistemas o modelos",
       "Sistema formal = Lenguaje formal + Aparato deductivo."
     ],
+    "palabrasClave": [],
     "imagen": "imagen1",
     "extencion": "png"
   },
@@ -82,23 +83,20 @@
     "unidad": 1,
     "title": "TEORIA DE A COMPUTABILIDAD ",
     "contenido": [
-      
-        "COMPUTACIÓN",
-        "es la rama de las ciencias computacionales que estudia la ejecución de un algoritmo el cual se describe como el conjunto de instrucciones, pasos o reglas bien definidas, ordenadas y finitas que permite realizar una actividad mediante pasos sucesivos que no generen dudas a quien deba realizar dicha actividad, por medio de varios sitios (lugares o espacios), dispersos geográficamente, que comparten recursos.",
-      
-        "APLICACIONES DE LA COMPUTACION",
-         
-          "1) Union de dos conjuntos",
-          "2) Interseccion",
-          "3) Conjunto vacio",
-          "4) Conjuntos ajenos",
-          "5) Complemento",
-          "6) Diferencia",
-          "7) Potencia",
-          "8) Igualdad",
-          "9) Producto cartesiano"
-        
-      
+      "COMPUTACIÓN",
+      "es la rama de las ciencias computacionales que estudia la ejecución de un algoritmo el cual se describe como el conjunto de instrucciones, pasos o reglas bien definidas, ordenadas y finitas que permite realizar una actividad mediante pasos sucesivos que no generen dudas a quien deba realizar dicha actividad, por medio de varios sitios (lugares o espacios), dispersos geográficamente, que comparten recursos.",
+
+      "APLICACIONES DE LA COMPUTACION",
+
+      "1) Union de dos conjuntos",
+      "2) Interseccion",
+      "3) Conjunto vacio",
+      "4) Conjuntos ajenos",
+      "5) Complemento",
+      "6) Diferencia",
+      "7) Potencia",
+      "8) Igualdad",
+      "9) Producto cartesiano"
     ]
   },
 
@@ -117,27 +115,26 @@
       "7) Ortogonalidad. Ofrece la posibilidad de combinar características de todas las formas posibles",
       "8) Portabilidad. El lenguaje debe facilitar la creación de programas que funcionen en el mayor número de entornos computacionales.",
       "9) Seguridad",
-        "LENGUAJE ENSAMBLADOR",
-        
-          "Consiste en una selección de abreviaturas (mnemónicos o mnemoclaves), se usan nombres (identificadores) en lugar de códigos binarios para operaciones, y también se usan nombres (también identificadores) para las direcciones de memoria.",
-          "VENTAJAS:",
-          "Mayor adaptación al equipo, sencillez siempre que se domine la arquitectura de la computadora.",
-          "Posibilidad de obtener la máxima velocidad con mínimo uso de memoria.",
-          "DESVENTAJAS:",
-          "Imposibilidad de escribir código independiente de la máquina. ",
-          "Mayor dificultad en la programación y en la comprensión de los programas.",
-        
-        "LENGUAJES DE ALTO NIVEL",
-         
-          "Se conoce por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, tambien por permitir gran flexibilidad al programador",
-          "EJEMPLOS:",
-          "Lexico, C, C#, Basic",
-        
+      "LENGUAJE ENSAMBLADOR",
+
+      "Consiste en una selección de abreviaturas (mnemónicos o mnemoclaves), se usan nombres (identificadores) en lugar de códigos binarios para operaciones, y también se usan nombres (también identificadores) para las direcciones de memoria.",
+      "VENTAJAS:",
+      "Mayor adaptación al equipo, sencillez siempre que se domine la arquitectura de la computadora.",
+      "Posibilidad de obtener la máxima velocidad con mínimo uso de memoria.",
+      "DESVENTAJAS:",
+      "Imposibilidad de escribir código independiente de la máquina. ",
+      "Mayor dificultad en la programación y en la comprensión de los programas.",
+
+      "LENGUAJES DE ALTO NIVEL",
+
+      "Se conoce por expresar los algoritmos de una manera adecuada a la capacidad cognitiva humana, tambien por permitir gran flexibilidad al programador",
+      "EJEMPLOS:",
+      "Lexico, C, C#, Basic",
+
       "LENGUAJES DE NIVEL INTERMEDIO",
-       "Son los lenguajes que se encuentran entre los lenguajes de alto y bajo nivel, esto porque muchas veces se pueden considerar de alto nivel y permiten ciertos manejos de bajo nivel",
+      "Son los lenguajes que se encuentran entre los lenguajes de alto y bajo nivel, esto porque muchas veces se pueden considerar de alto nivel y permiten ciertos manejos de bajo nivel",
       "LENGUAJES DE BAJO NIVEL",
-        "Son aquellos en los que sus instrucciones ejercen control directo sobre el  hardware y estan condicionados por la estructura fisica de las computadoras que lo soportan"
-      
+      "Son aquellos en los que sus instrucciones ejercen control directo sobre el  hardware y estan condicionados por la estructura fisica de las computadoras que lo soportan"
     ]
   },
 
@@ -235,23 +232,14 @@
     "unidad": 2,
     "title": "TRANSFORMACIÓN AFND CON EPSILON TRANSICIONES",
     "contenido": [
-      {
-        "title": "A AFND",
-        "contenido": [
-          "Autómata finito determinista con épsilon transiciones y para lograr la transformación a un autómata finito no determinista, hace falta al menos otro símbolo. Ya que recordemos que para que esto se cumpla, debe de haber por cada símbolo del alfabeto una transición.",
-          "Cuando dos autómatas aceptan el mismo lenguaje y uno de ellos es determinista y el otro es no determinista, o bien, uno tiene a épsilon como símbolo aceptado y se conoce como “autómata finito con épsilon transiciones” y otro que no incluye a épsilon o cadena vacía, y a este autómata se le conoce como “autómata finito (que puede ser determinista o no determinista) sin épsilon transiciones”",
-          "Cuando dos autómatas son diferentes, pero aceptan el mismo lenguaje, a esto se le conoce como autómatas equivalentes",
-          "El lenguaje aceptado para este autómata, son todas y cada una de las cadenas que llegan al estado final y este lenguaje a su vez puede incluir una expresión regular o varias de éstas."
-        ]
-      },
-
-      {
-        "title": "A AFD",
-        "contenido": [
-          "Estas transformaciones nos permiten llegar a un autómata mínimo cuyo procesamiento resulta más objetivo y práctico",
-          "Es por esto la razón de que las computadoras se hayan diseñado con sistemas binarios en su lenguaje de máquina."
-        ]
-      }
+      "A AFND",
+      "Autómata finito determinista con épsilon transiciones y para lograr la transformación a un autómata finito no determinista, hace falta al menos otro símbolo. Ya que recordemos que para que esto se cumpla, debe de haber por cada símbolo del alfabeto una transición.",
+      "Cuando dos autómatas aceptan el mismo lenguaje y uno de ellos es determinista y el otro es no determinista, o bien, uno tiene a épsilon como símbolo aceptado y se conoce como “autómata finito con épsilon transiciones” y otro que no incluye a épsilon o cadena vacía, y a este autómata se le conoce como “autómata finito (que puede ser determinista o no determinista) sin épsilon transiciones”",
+      "Cuando dos autómatas son diferentes, pero aceptan el mismo lenguaje, a esto se le conoce como autómatas equivalentes",
+      "El lenguaje aceptado para este autómata, son todas y cada una de las cadenas que llegan al estado final y este lenguaje a su vez puede incluir una expresión regular o varias de éstas.",
+      "A AFD",
+      "Estas transformaciones nos permiten llegar a un autómata mínimo cuyo procesamiento resulta más objetivo y práctico",
+      "Es por esto la razón de que las computadoras se hayan diseñado con sistemas binarios en su lenguaje de máquina."
     ]
   },
   {
@@ -269,19 +257,13 @@
     "unidad": 3,
     "title": "LENGUAJES",
     "contenido": [
-      {
-        "title": "NATURALES",
-        "contenido": [
-          "Son aquellos que utilizan los seres humanos para comunicarse, éstos son conocidos como idiomas, de los cuales se derivan dialectos, lenguas y tienen sus propias gramáticas cada uno de ellos. ",
-          "tales como el Chino, Japonés, Español, Inglés, Francés, Italiano, Portugués, etc",
-          "Ambigüedades en lenguajes naturales",
-          "Para poder describir a los lenguajes naturales, podemos escribir reglas como las que enumeramos en el siguiente conjunto Pn"
-        ]
-      },
-      {
-        "title": "INDEPENDIENTES DE CONTEXTO",
-        "contenido": "También se conocen con el nombre de gramáticas libres de contexto, son un método recursivo sencillo de especificación de reglas gramaticales con las que se pueden generar cadenas (palabras) de un lenguaje."
-      }
+      "NATURALES",
+      "Son aquellos que utilizan los seres humanos para comunicarse, éstos son conocidos como idiomas, de los cuales se derivan dialectos, lenguas y tienen sus propias gramáticas cada uno de ellos. ",
+      "tales como el Chino, Japonés, Español, Inglés, Francés, Italiano, Portugués, etc",
+      "Ambigüedades en lenguajes naturales",
+      "Para poder describir a los lenguajes naturales, podemos escribir reglas como las que enumeramos en el siguiente conjunto Pn",
+      "INDEPENDIENTES DE CONTEXTO",
+      "También se conocen con el nombre de gramáticas libres de contexto, son un método recursivo sencillo de especificación de reglas gramaticales con las que se pueden generar cadenas (palabras) de un lenguaje."
     ]
   },
 
@@ -296,23 +278,22 @@
       "Para subconjuntos de gramáticas libres de contexto, existen algoritmos para generar analizadores sintácticos LL y analizadores sintácticos LR eficientes, mismos que se explicaran en el tema de los árboles de derivación y, que permiten reconocer los correspondientes lenguajes generados por esas gramáticas.",
 
       "GRAMATICAS TIPO 0",
-       
-          "Recursivamente enumerables (LRE) Para este tipo de gramáticas no restringidas o gramáticas con estructura de frase. Las reglas de derivación son de la forma: ",
-          "a --> B",
-          "Siendo ∝→ ( ∪ ) ∈ ( ∪ ) ∗, es decir la única restricción es que no puede haber reglas de la forma → donde la cadena vacía.",
-        
+
+      "Recursivamente enumerables (LRE) Para este tipo de gramáticas no restringidas o gramáticas con estructura de frase. Las reglas de derivación son de la forma: ",
+      "a --> B",
+      "Siendo ∝→ ( ∪ ) ∈ ( ∪ ) ∗, es decir la única restricción es que no puede haber reglas de la forma → donde la cadena vacía.",
+
       "GRAMATICAS TIPO 1",
-        
-          "Dependientes del contexto (LSC) También llamadas gramáticas sensibles al contexto, en estas las reglas de producción son de la siguiente forma: ",
-          "αAβ→ αγβ Siendo A ∈ V; ,a,B (V ∪ V)∗ y (V ∪ V)+",
-          "Estas gramáticas se llaman sensibles al contexto, pues se puede reemplazar A por siempre que estén en el contexto a ......B",
-        "GRAMATICAS TIPO 2",
-        
-          " Independiente del contexto (LLC) Estás gramáticas se denominan gramáticas libres de contexto, las reglas de producción de estas solo admiten tener un símbolo no terminal en su parte izquierda, es decir son de la forma: A→ α",
-          "Siendo A ∈ V. y a ∈ (V ∪ V)+",
-        "GRAMATICAS TIPO 3",
-        "Las gramáticas de tipo 3 también se denominan regulares o gramáticas lineales a la derecha comienzan sus reglas de producción por un símbolo terminal, puede serseguido o no por un símbolo no terminal"
-      
+
+      "Dependientes del contexto (LSC) También llamadas gramáticas sensibles al contexto, en estas las reglas de producción son de la siguiente forma: ",
+      "αAβ→ αγβ Siendo A ∈ V; ,a,B (V ∪ V)∗ y (V ∪ V)+",
+      "Estas gramáticas se llaman sensibles al contexto, pues se puede reemplazar A por siempre que estén en el contexto a ......B",
+      "GRAMATICAS TIPO 2",
+
+      " Independiente del contexto (LLC) Estás gramáticas se denominan gramáticas libres de contexto, las reglas de producción de estas solo admiten tener un símbolo no terminal en su parte izquierda, es decir son de la forma: A→ α",
+      "Siendo A ∈ V. y a ∈ (V ∪ V)+",
+      "GRAMATICAS TIPO 3",
+      "Las gramáticas de tipo 3 también se denominan regulares o gramáticas lineales a la derecha comienzan sus reglas de producción por un símbolo terminal, puede serseguido o no por un símbolo no terminal"
     ]
   },
 
@@ -340,7 +321,1139 @@
       "Aplicamos las producciones de un GIC para inferir que determinadas cadenas pertenecen al lenguaje de una cierta variable \nEl más convencional de ellos consiste en emplear las reglas para pasar del cuerpo a la cabeza. \n-- Tomamos cadenas que sabemos que pertenecen al lenguaje de cada una de las variables del cuerpo.  \n-- Concatenar en el orden apropiado con cualquier símbolo terminal.   \n-- Inferir que la cadena resultante pertenece al lenguaje de la variable de la cabeza.",
       "RECURSIVIDAD POR LA DERECHA Y POR LA IZQUIERDA",
       "La recursividad es la característica de una gramática formal, la cual puede ser recursiva o repetitiva cuando existe una producción que se incluye a sí misma dentro de las reglas de producción de la gramática. \nLa recursividad tiene como característica principal la sensación de infinito, de algo que es continuo y que por tanto no puede ser delimitado en el espacio o el tiempo porque se sigue replicando y multiplicando de manera lógica y matemática.  \nAsí, es común encontrar casos de recursividad por ejemplo en imágenes de espejos que hacen que la imagen sea replicada al infinito, una dentro de otra hasta que deja de verse, pero no por eso deja de existir. \nEn la definición de una gramática recursiva (repetitiva hasta el infinito), se presentan algunos problemas en la derivación de palabras que sea de fácil derivación o generación. Es por esto que se tiene la necesidad de eliminar la recursividad por la izquierda o por la derecha para tener palabras definidas en el alfabeto"
-      
+    ]
+  },
+  {
+    "_id": 26,
+    "unidad": 0,
+    "title": "",
+    "contenido": []
+  },
+  {
+    "id": 50,
+    "unidad": 5,
+    "title": "Equivalencias de una Gramática Regular Lineal por la derecha",
+    "contenido": [
+      "El tener mediante dos recorridos diferentes la generación de la misma cadena, estamos describiendo una gramática ambigua, cuyas reglas de producción son las dos siguientes:",
+      "1) <cadena> ::= <cadena> - <cadena> + <cadena>",
+      "2) <cadena> ::= 9|5|2",
+      "Si en cada paso de una derivación, la variable que se reescribe es aquélla que aparece más a la izquierda de la forma oracional; entonces la derivación que es una derivación izquierda.",
+      "Si la variable que se reescribe en cada paso es aquélla que aparece más a la derecha, se dice que es una derivación derecha.",
+      " 'w' puede tener varias derivaciones; izquierdas o derechas ya que, puede haber más de un árbol de derivación para 'w'. Entonces pueden encontrarse una única derivación izquierda y una única derivación derecha.",
+      "Si en una gramática positiva G, alguna palabra tiene más de un árbol de derivación o, equivalentemente, más de una derivación de izquierda o derecha, se dice que la gramática es ambigua.",
+      ","
+    ],
+    "palabrasClave": [
+      "dos recorridos diferentes",
+      "derivación izquierda",
+      "derivación derecha",
+      "w",
+      "gramática es ambigua"
+    ]
+  },
+  {
+    "id": 51,
+    "unidad": 5,
+    "title": "Lenguaje Libre de Contexto (LLC)",
+    "contenido": [
+      "es tal que toda gramática que lo genera es ambigua, entonces se dice de él que es inherentemente ambiguo.",
+      "Ejemplo. Sea G gramática cuyas producciones son:",
+      "S → AB|BA A → Aa|aA|a B →Bb|bB|b",
+      "Sea w = aaab; se mostrará que w tiene al menos, dos derivaciones izquierdas distintas y dos derivaciones derechas distintas:",
+      "i) Derivaciones izquierdas: a) S => AB => AaB => aAaB => aaaB=> aaab b) S => AB => aAB => aaAB => aaaB=> aaab",
+      "ii) Derivaciones derechas: a) S => AB => Ab => aAb => aAab=> aaab b) S => AB => Ab => Aab => Aaab=> aaab",
+      "La variable no terminal “A” corresponde al árbol de derivación izquierda, de los dos árboles mostrados arriba y, a la ii)a). El de la derivación derecha. De los resultados obtenidos puede inferirse, entonces que G es una gramática ambigua:",
+      "Derivación i) a)S → AB A → aA A → a B → b En figura 5.5",
+      "Derivación ii) a) S → AB A → aA A → a B → b En figura 5.6"
+    ],
+    "palabrasClave": ["A", "inherentemente ambiguo"],
+    "imagen": "f5.5",
+    "extencion": "jpeg"
+  },
+  {
+    "id": 52,
+    "unidad": 5,
+    "title": "gramática regular",
+    "contenido": [
+      "Toda gramática regular es una gramática libre de contexto.",
+      "Una gramática regular lineal por la derecha es aquella cuyas reglas de producción P son de la siguiente forma:",
+      "1. A→ a, donde A es un símbolo no-terminal en N y a un elemento terminal en Σ",
+      "2. A→ aB, donde A y B pertenecen a N y a pertenece a Σ",
+      "3. A→ ε, donde A pertenece a N.",
+      "En una gramática regular a la izquierda, sus reglas son:",
+      "1. A→ a, donde A es un símbolo no-terminal en N y a un elemento terminal en Σ",
+      "2. A→ Ba, donde A y B pertenecen a N y a pertenece a Σ",
+      "3. A→ ε, donde A pertenece a N.",
+      "Una definición equivalente evita la regla 1. (A → a) ya que es sustituible por: A → aLL→ ε en el caso de las gramáticas regulares derechas y por: A→ LaL → ε en el caso de las izquierdas. Algunos autores alternativamente no permiten el uso de la regla 3 suponiendo que la cadena vacía no pertenece al lenguaje",
+      "En gramática regular a la izquierda  es posible convertirla, mediante un algoritmo en una derecha y viceversa.  Existen cuatro métodos y más pueden ser programados de diferentes formas o mediante el uso o aplicación de lenguajes de programación existentes, mismos que incluyen métodos particulares dentro de cada lenguaje como parte del mismo lenguaje.   métodos:",
+      "1) Para pasar de una Gramática Regular Lineal por la Derecha a un AFN con Épsilon Transiciones;",
+      "2) Para pasar de un AFN con Épsilon Transiciones a una Gramática Regular Lineal por la Derecha;",
+      "3) Para pasar de una Gramática Regular Lineal por la Izquierda a un AFN con Épsilon Transiciones",
+      "4) para pasar de un AFN con Épsilon Transiciones a una Gramática Regular Lineal por la Izquierda.",
+      "AWK lenguaje de programación creado con lenguaje C que describe brevemente en la generación de “Items” aceptando de forma “formal” expresiones regulares que son definidas para filtrar los elementos terminales y no terminales de una gramática definida. Genera cadenas, palabras o conjuntos de símbolos aceptados y rechazados, según lo que se pida."
+    ],
+    "palabrasClave": [
+      "gramática regular",
+      "gramática libre de contexto",
+      "gramática regular lineal por la derecha",
+      "reglas de producción P",
+      "gramática regular a la izquierda",
+      "AWK"
+    ]
+  },
+  {
+    "id": 53,
+    "unidad": 5,
+    "title": "Constructor",
+    "contenido": [
+      "Constructor se encarga de componer una gramática vacía, e incluir un constructor que reciba todos los elementos de la gramática, alfabeto de variables, alfabeto de terminales y conjunto de reglas para abrir el archivo. Con la definición de una gramática hay que tener en cuenta cómo se especificarán sus elementos en el mismo.",
+      "Por ejemplo, la gramática G = ({S,A}, {a,b}, {SaA, A, aAb|b}, S) se representará en un archivo de texto de la manera siguiente: SAab3S aAA aAbA b Cada una de las filas de este archivo representa:",
+      "Primera fila.- SAab3S, representa una cadena en la que se especifican, ordenadamente, los símbolos que forman el alfabeto de las variables terminales y no terminales.",
+      "Segunda fila.- aAA, representa una cadena en la que se especifican, ordenadamente, los símbolos que forman el alfabeto de los símbolos terminales.",
+      "Tercera fila.- aAbA, representa el número de reglas de producción que componen la gramática.",
+      "Cuarta fila.- b, Primera regla de producción. Se especifica primero la parte izquierda de la regla y, después, la parte derecha ambas separadas por espacios en blanco. Cuando se trate de una producción nula, A, la cadena vacía se representará por ‘e’.",
+      "Siguientes filas.- Resto de reglas de producción donde u T* y A, B V.",
+      "Esta comprobación la llevará a cabo el método Boolean es Regular (Dentro de la clase Gramática). Una vez, finalizada la implementación de esta clase, dispondremos de todos los elementos necesarios para llevar a la práctica la equivalencia entre AFD´s y gramáticas regulares, utilizando un lenguaje de programación.",
+      "En teoría de la computación existen algunos algoritmos relacionados con las propiedades de los lenguajes regulares y estos son:",
+      "Algoritmos de decisión: Procedimientos aplicados a toda instancia del problema, efectivo y que siempre termina dando un resultado y estos son:",
+      "Finitud (Que tiene fin, término o límite)",
+      "¿L1 es finito?",
+      "El lenguaje común es infinito",
+      "Por el lema del bombeo → Si existen ciclos es infinito.",
+      "Autómata Finito (AF): Algoritmo para hallar ciclos en un dígrafo desde el estado inicial 'q0' a algún estado final 'qf'. En figura 5.7",
+      "ER: ¿Si existe clausura de Kleene?",
+      "Vacuidad (Que tiene vacío, falto de contenido)",
+      "¿L1 está vacío?",
+      "AF: por accesibilidad de un dígrafo, existe un camino desde el estado inicial a algunos de los estados finales.",
+      "ER: propiedades algebraicas de ER.",
+      "• R + S Æ R + Φ = R, R y S deben ser Φ",
+      "• RS Æ R Φ = Φ, R o S deben ser Φ",
+      "• R* Æ nunca es Φ porque la clausura contiene a la cadena vacía ε",
+      "Membresía (Que pertenece a un conjunto) ",
+      "Dado w en Σ*, ¿Si w está en L1? ",
+      "AF: recorrido de un dígrafo o simular un AFD ER: convertir a un AFN- ε, convertir a un AFD y simular. ",
+      "Inclusión (Que está dentro de un conjunto)",
+      "Equidad (Igualdad)",
+      "Los algoritmos de decisión son diferentes a los problemas de decisión",
+      "o Algoritmos de decisión ≠ Problema de decisión",
+      "Los problemas aplicados a lenguajes regulares son diferentes a los problemas de decisión",
+      "o Problemas aplicados a lenguajes regulares",
+      "¿L1 y L2 son iguales? ",
+      "Existe un algoritmo para determinar si dos AFD aceptan el mismo lenguaje.",
+
+      "Demostración. Sean M1 y M2 dos AFD, entonces de forma algorítmica se puede construir al AFD M que acepte el lenguaje: L(M) = (L(M1) ∩ L(M2)c) U (L(M1)c ∩ L(M2)) Entonces si L(M) ≠ Φ (vacuidad)."
+    ],
+    "palabrasClave": [
+      "Constructor",
+      "método Boolean",
+      "Algoritmos de decisión:",
+      "Finitud",
+      "Vacuidad",
+      "Membresía",
+      "Inclusión",
+      "Equidad",
+      "Demostración"
+    ],
+    "imagen": "f5.7",
+    "extencion": "jpeg"
+  },
+  {
+    "id": 54,
+    "unidad": 5,
+    "title": "Teorema de Myhill-Nerode",
+    "contenido": [
+      "Teorema de Myhill-Nerode para minimización de autómatas Sea L un subconjunto de A* un lenguaje arbitrario. Asociado a este lenguaje L se puede definir una relación de equivalencia RL en el conjunto A, de la siguiente forma: Si x, y están en A*, entonces (xRLy) si y solo si (Para todo z en A*; (xz en L, si y solo si, yz en L)). Esta relación de equivalencia dividirá el conjunto A* en clases de equivalencia.",
+      "El número de clases de equivalencia se llama índice de la relación. También se puede definir una relación de equivalencia, RM, en A* asociada a AFD M = (Q; A; δ; q0; F) Si u, v en A*, entonces uRMv si y solo si (δ(q0; u) = δ(q0; v))",
+
+      "La relación de equivalencia divide también el lenguaje A en clases de equivalencia.  Si L es subconjunto de A* entonces: ",
+      "L es aceptado por un autómata finito ",
+      "L es la unión de algunas de las clases de equivalencia de una relación de equivalencia en A* de índice finito que sea invariante por la derecha. ",
+      "La relación de equivalencia RL es de índice finito. ",
+      "Si L es un conjunto regular y RL la relación de equivalencia asociada, entonces el autómata construido en el teorema anterior es “minimal” o mínimo y único salvo isomorfismos.",
+      "método simple para encontrar el AFD con número mínimo de estados M’ equivalente a un AFD.",
+      "M = (Q, A, δ, q0, F). ",
+      "Sea ≡ la relación de equivalencia de los estados de M tal que p ≡ q si y sólo si para cada entrada x, δ^(p, x) es un estado de aceptación si y sólo si δ^(q, x) es un estado de aceptación Si p ≡ q, decimos que p es equivalente a q.",
+
+      "Decimos que p es distinguible de q si existe un x tal que δ^(p, x) en F y δ^(q, x) no está en F, o viceversa.",
+
+      "Lenguaje regular aceptado: 01((0(01))+)*1*",
+      "Se tiene que construir una tabla con una entrada para cada par de estados.",
+      "Se coloca una X en la tabla cada vez que un par de estados son distinguibles. Inicialmente se coloca una X en cada entrada correspondiente a un estado final y un estado no final. En el ejemplo, Q - F = {a, b, d, e, f, g, h}, esto es Q = conjunto de todos los estados = {a, b, c, d, e, f, g, h} y F = {c}, recordando que F es el estado final marcado con doble circulo.",
+      "Colocamos una X en las entradas (a, c), (b, c), (c, d), (c, e), (c, f), (c, g) y (c, h). Esto es, todos los estados involucrados con el estado final c.",
+      "Para cada par de estados p y q que no se han identificado como distinguibles, consideramos el par de estados (r, s), r = δ(p, a) y s = δ(q, a) para cada entrada a.",
+      "Ejemplo: Se demuestra que los estados s y r son distinguibles para alguna cadena x entonces p y q son distinguibles para cualquier cadena ax.",
+      "Así si la entrada (r, s) en la tabla tiene una X, se coloca una X en la entrada (p, q). Si la entrada (r, s) no tiene X, entonces el par (p, q) es colocado en una lista asociada con la entrada (r, s).",
+      "Continuando se tiene que si la entrada (r, s) recibe una X entonces cada par en la lista asociada con la entrada (r, s) también recibe una X.",
+      "Ejemplo En el ejemplo anterior, colocamos una X en la entrada (r, s), porque la entrada (δ(b,1), δ(a,1)) = (c, f) ya tiene una X. Similarmente, la entrada (a, d) recibe una X.",
+      "Ahora consideramos la entrada (a, e) que con la entrada 0 va a dar el par (b, h), así (a, ge) es colocado en la lista asociada con (b, h). Observe que con la entrada 1, a y e van al mismo estado f y por lo tanto no hay cadena con 1 que pueda distinguir a de e."
+    ],
+    "palabrasClave": [
+      "A*",
+      "clases de equivalencia",
+      "índice de la relación:",
+      "minimal",
+      "p ≡ q",
+      "δ^(q, x)",
+      "x",
+      "p",
+      "q",
+      "F",
+      "01((0(01))+)*1*"
+    ],
+    "imagen": "f5.8",
+    "extencion": "jpeg"
+  },
+  {
+    "id": 56,
+    "unidad": 5,
+    "title": "Tabla de estados distinguibles según método del Teorema de Myhill-Nerode",
+    "contenido": [
+      "Tabla de estados distinguibles según método del Teorema de Myhill-Nerode para minimización de autómatas.",
+      "Lenguaje Regular aceptado de la figura 5.9: 01((0(01) )+)*1*"
+    ],
+    "imagen": "f5.9",
+    "extencion": "jpeg"
+  },
+  {
+    "id": 57,
+    "unidad": 5,
+    "title": "5.1.1 Método para pasar de una Gramática Regular Lineal por la Derecha a un AFN con Épsilon Transiciones",
+    "contenido": [
+      "Método para pasar de una Gramática Regular Lineal por la 173 Derecha a un AFN con Épsilon Transiciones",
+      "Una gramática regular lineal por la derecha es aquella cuyas reglas de producción donde nos permiten decidir que las cadenas generadas serán tomadas de derecha a izquierda, el resto de reglas de producción donde se especifica la gramática son del siguiente tipo:",
+      "1) A → aB",
+      "2) A → a",
+      "Donde A, B son elementos de los símbolos no terminales y a (en minúscula) pertenece al conjunto de elementos terminales esto es: A, B∈VN y a∈VT Las dos reglas de producción anteriores con respecto a las variables A, a, y B. Se pueden integrar en una sola:",
+      "A → aB|a"
+    ],
+    "palabrasClave": ["gramática regular lineal por la derecha"]
+  },
+  {
+    "id": 58,
+    "unidad": 5,
+    "title": "Jerarquía de Chomsky",
+    "contenido": [
+      "según la Jerarquía de Chomsky, una gramática regular por la derecha corresponden al tipo 3 o gramáticas regulares o de estado finito, mismas gramáticas que generan lenguajes regulares son fácilmente transformadas a autómatas finitos no deterministas, esto es, que no necesitan una transición por cada símbolo definido por el lenguaje, para efectos de ejemplificar esta posibilidad, recordemos que un Autómata Finito No determinista (AFN) puede ser generado por una expresión regular (ER) que a su vez es generada por una gramática regular GR y ésta a su vez generada por una expresión regular (ER) la cual para la representación de la pequeña gramática anterior, tenemos lo siguiente Lenguaje (LR) reconocido por un autómata finito no determinista y este se puede hacer determinista, AFD, según se mostró en capítulos anteriores.",
+      "AFN→ER→GR →LR→AFN→AFD (con épsilon y sin épsilon transiciones) Cuando un lenguaje transita a una configuración final partiendo de la configuración inicial, en varios movimientos, se dice que se ha producido aceptación o reconocimiento de la cadena de entrada. Es decir, los autómatas finitos reconocen los lenguajes regulares, o de tipo 3 según jerarquía de Chomsky y se pueden representar intuitivamente como una máquina de Turing, por una cinta y una cabeza de lectura que para este caso sólo realiza movimientos a la izquierda y cuenta con una cabeza de lectura sobre cada una de las celdas de la CINTA.",
+      "Según se muestra en la figura 5.10",
+      "La cinta de entrada, solo contiene símbolos de un determinado alfabeto y en este caso es:Σ = {0,1},y se mueve en una sola dirección.",
+      "El control de estados, determina el comportamiento del autómata, en este caso está determinado con el movimiento de izquierda a derecha, conjuntamente con la cabeza lectora y los símbolos de la cinta, para este ejemplo en particular es finita, contrariamente a la máquina de Turing que se diseñó con un número infinito de símbolos planteando el problema como de la parada de la Máquina de Turing es “indecidible” y en matemática quedó demostrado, así como la complejidad computacional.",
+
+      "La característica más importante de un autómata finito es el hecho de que una sentencia de un lenguaje determinado, colocada en cinta, y leída por el autómata finito, es reconocida por éste, si el control de estados llega a un estado final. La definición formal de la gramática lineal por la derecha de la gramática mostrada en el autómata finito dibujado es la siguiente: M = {Q,Σ,δ,q0, F} ",
+      "Donde M representa: máquina de estados finitos o autómata finito. ",
+      "Q representa al conjunto de estados del autómata. ",
+      "Σ representa: El alfabeto que acepta el autómata que es este caso es Σ = {0,1} ",
+      "δ representa: Función de transición, esto es, el símbolo que permite cambiar de un estado a otro. Ampliando esta función de transición, queda mejor representado como un eje cartesiano dondeδ=Q xΣo bien la siguiente tabla.",
+
+      "Función de transición δ",
+      "Q = conjunto de estados del autómata que,para efectos del diagrama, pueden ser cada una de las celdas, que si las contamos son 24, esto significa que para nuestro ejemplo tenemos:",
+      "Q = {q0, q1, q2, q3, q4, q5, q6, q7, q8, q9, q10, q11, q12, q13, q14, q15, q16, q17, q18, q19, q20, q21, q22, q23, q24} Según se muestra la figura 5.11",
+      "El lenguaje regular aceptado por este diagrama y el autómata finito no determinístico es: 110000111111111010101001",
+      "Este es un lenguaje regular LR el cual también se puede expresar como:",
+      "LR = {1i0j1k(0l)l0i1 / i=2, J=4, k=9,l=3} (Esto significa que el 1 se repite dos veces (i=2), el 0 se repite cuatro veces (J=4), el 1 se repite nueve veces (k=9), el 01 se repite tres veces (l=3), nuevamente el 0 se repite dos veces (i=2) y al último 1.",
+
+      "Para cada uno de estos estados se puede tener cada uno de los símbolos del alfabeto, esto es, 0 y 1 S = {q0} = representación del estado inicial",
+      "Según la tabla de transiciones de la figura 5.12",
+      "F = {qf} Considerando el LR como un ejemplo de lo que es un lenguaje regular: LR = 110000111111111010101001 Recuerda que existe el exponencial cerradura positiva + y cerradura de Kleene * Según se muestra en la figura 5.13",
+      "Se entiende por configuración de un autómata finito, a un par de la forma (q, w), donde q, es el estado actual, y 'w' la cadena que queda por leer en ese instante. Según la definición anterior, se puede afirmar que la configuración inicial de un autómata finito es el par (qi, t) siendo t la sentencia o cadena de entrada a reconocer. La configuración final se representa por el par (qi ,ε) donde qi∈F, y ε indica que no queda nada por entrar de la cinta. Un movimiento de un autómata finito, puede definirse como el tránsito entre dos configuraciones, y se representa por (q, aW) → (q’, W) y se debe cumplir que f(q, a)=q’."
+    ],
+    "palabrasClave": [
+      "gramática regular por la derecha",
+      "expresión regular (ER)",
+      "CINTA",
+      "cinta de entrada",
+      "control de estados",
+      "Función de transición δ",
+      "configuración"
+    ],
+    "imagen": ["f5.10", "f5.11", "f5.12", "f5.13"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 59,
+    "unidad": 5,
+    "title": "Lenguaje reconocido por un autómata finito.",
+    "contenido": [
+      "Lenguaje reconocido por un autómata finito.",
+      "Cuando un autómata transita a una configuración final partiendo de la configuración inicial, en varios movimientos, entonces se ha producido aceptación o reconocimiento de la cadena de entrada. Es decir que dicha cadena, pertenece al lenguaje reconocido por el autómata.",
+      "Por el contrario, cuando el autómata finito no es capaz de llegar a un estado final, se dice que el autómata no reconoce dicha cadena y que por tanto no pertenece al lenguaje.",
+      "El lenguaje reconocido por un autómata finito es: L(AF) = {t|t∈E*, (qi, t) → (qi,ε),qi∈F}"
+    ]
+  },
+  {
+    "id": 60,
+    "unidad": 5,
+    "title": "Teoremas",
+    "contenido": [
+      "1. Para toda gramática regular G, existe un autómata finito AF, tal que el lenguaje reconocido por el autómata finito es igual al lenguaje generado por la gramática. L(AF) = L(G)",
+      "2. Para todo autómata finito AF, existe una gramática regular G, tal que el lenguaje generado por la gramática es igual al lenguaje reconocido por el autómata finito L(G) = L(AF)"
+    ]
+  },
+  {
+    "id": 61,
+    "unidad": 5,
+    "title": "Corolario",
+    "contenido": [
+      "Según el teorema 1), se tiene que {L(G)}  {L(AF)} y por el teorema 2) {L(AF)  {L(G)}, luego {LR}={L(AF)} = {L(G)}",
+      "La forma habitual de representar los autómatas finitos es mediante un grafo dirigido o diagrama de estados, donde los nodos son los estados (Q) y las aristas (flechas dirigidas) son los símbolos del alfabeto de entrada Σ. Las aristas se construyen según la función de transición, así debe de cumplir f(q1, a) = δ(q1, a) = q2 La representación de esta única función de transición se utiliza usando dos nodos (círculos) etiquetados como q1, q2, el nodo q1, se etiqueta como inicial y el nodo q2, como final definiendo un doble círculo en el de la figura 5.14:"
+    ],
+    "imagen": ["f5.14"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 62,
+    "unidad": 5,
+    "title": "Gramática regular lineal por la derecha",
+    "contenido": [
+      "1. A → aAB (esto equivale a que A como elemento no terminal o nodo puede producir tres elementos: a, A, B) ",
+      "2. A → a|ε (aquí equivale a que A solo puede ser una a o nada o cadena vacía ε)",
+      "3. B → a|ε (aquí al igual que la A, B equivale a que B solo puede ser una a o nada o cadena vacía ε)",
+      "Esta gramática en forma de autómata quedan dos estados A y B que también son variable no terminales VN, las transiciones pueden ser a minúscula y la cadena vacía ε, según se muestra en la figura 5.15",
+      "Este es un autómata finito NO determinista porque por cada símbolo, que en este caso son dosa yεse tienen transiciones a: A y B y también se repite la misma transición con los mismos símbolos. La representación formal es:",
+      "{Q,Σ,δ,q0, F} = M = {Q,Σ,δ,A, B} ",
+      "Q = {A, B}",
+      "Σ = {a,ε} ",
+      "δ(A, a) = A ",
+      "δ(A,ε) =A ",
+      "δ(A, a) = B ",
+      "δ(A,ε) = B",
+      "En este caso particular el estado inicial q0 equivale a A(q0= A)y el estado final F = B Las cuatro transiciones antes descritas con δ, se puede expresar en la siguiente tabla de transiciones:",
+
+      "El método más simple que podemos describir de como la expresión regular o lenguaje regular LR =a* se puede pasar de una expresión regular lineal por la derecha a un autómata finito no determinista.",
+      "Otro ejemplo es: LR = {ab, aab,…, abbb, aabb,…} = LR = {anbm| n > 1m > 1} = a+b+ = aa*bb*",
+      "Ejemplo Se solicita, pasar ésta expresión regular: aa*bb* a un autómata finito no determinista también conocido como diagrama de Moore.",
+      "Solución:",
+      "Paso 1. Se construye el diagrama de Moore, colocando en primer lugar todos los estados dentro de círculos, marcando con doble circulo el estado final. ",
+      "Paso 2. El estado inicial se indica con una flecha que lo señala con la palabra INICIO encima.",
+      "Paso 3. Para construir las ramas, nos situamos en el primer estado de la tabla de transiciones y se observa que δ(q1, a) = q2, entonces se traza una flecha entre q1 y q2, apuntando a q2y se coloca encima de la flecha el símbolo del vocabulario o alfabeto de entrada a.",
+      "De igual forma se recorre la siguiente tabla de transiciones para cada estado y entrada completando el diagrama de Moore. δ = Q x Σ Tabla de transiciones:",
+      "Definición formal: M = {Q, Σ, q1, δ, F}",
+      "Donde Q = {q1, q2, q3, q4},",
+      "Σ = {a, b, ε}, ",
+      "δ = Q x Σ",
+
+      "Desarrollando cada una de las transiciones nos queda:",
+      "δ = (q1, a) = {q2, q3} (Aquí queda claro que es un autómata finito NO determinista)",
+      "δ = (q2, a|ε) = {q2} (Aquí a|ε significa que puede tenerse un símbolo a o nada, esto es, la cadena vacía) ",
+      "δ = (q2, b) = { q4} ",
+      "δ = (q3, a|b|ε) = {q3} (Aquí a|b|ε significa que puede tenerse un símbolo a o bien b, o nada, esto es, la cadena vacía)",
+      "δ = (q4, a) = {q3}",
+      "δ = (q4, b|ε) = {q4} ",
+      "S = B = {q4} ",
+      "F = {q4}"
+    ],
+    "palabrasClave": ["diagrama de Moore.", "Tabla de transiciones"],
+    "imagen": ["f5.14", "f5.15", "f5.15.1", "f5.15.2", "f5.16"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 63,
+    "unidad": 5,
+    "title": "Método para pasar de un AFN con Épsilon Transiciones a una 181 Gramática Regular Lineal por la Derecha",
+    "contenido": [
+      "Un autómata finito es una representación gráfica del comportamiento de cualquier sistema que sea posible abstraer como un conjunto de elementos que recibe símbolos de entrada, mismos que alimentan transiciones que pueden integrarse como pasos de un proceso y se genera una salida que son un conjunto de cadenas que conforman un lenguaje. Todos los elementos de un autómata se pueden integrar en una definición formal, misma que puede ser una cuádrupla o una quíntupla de elementos, dependiendo del tipo de gramática. En la siguiente quíntupla de elementos definimos, a un Autómata Finito NO determinístico con Épsilon Transiciones con la siguiente definición formal, donde:",
+
+      "M = Máquina de Estados Finitos.",
+      "M = {Q,Σ, q0,δ,F} Para este ejemplo sustituimos el estado inicial q0por la letra S,",
+      "(S = {q0}), también sustituimos el estado final F por la letra B, o bien, F = B y, tenemos: ",
+      "M = {Q,Σ,S,δ,B} Donde Q = {S, B} En este caso, en vez de etiquetar los estados q0,q1,…, qf como S y B donde el alfabeto tiene: ",
+      "Σ = {a, b,ε} ",
+      "δ = Q x Σ Se puede seguir una descripción de la siguiente forma:",
+      "Reglas de producción de una gramática lineal por la derecha ",
+      "1) S → bS ",
+      "2) S → aA ",
+      "3) A → aS ",
+      "4) A → a",
+
+      "En la figura 5.17 se muestra un Autómata finito No determinístico con épsilon transiciones con estas cuatro reglas de producción:",
+      "Corresponde a la siguiente descripción de un Lenguaje regular (LR) LR= b*aa*",
+      "Ejemplo Con los datos anteriores que describen un autómata finito NO determinístico, se pretende lograr la Gramática regular por la derecha.",
+
+      "Solución:  ",
+      "Paso 1. Con base al diagrama de Moore, colocados en primer lugar todos los estados dentro de círculos (S, A), marcando con doble círculo el estado final (A).  ",
+      "Paso 2. El estado inicial (S) se indica con una flecha que lo señala con la palabra INICIO encima. Esto significa que el símbolo o símbolos etiquetados de la letra S hacia el estado final A, son símbolos requeridos para el lenguaje regular, en este caso son tres símbolos (a, b, ε). En el caso del símbolo a, se tiene una sola vez en la transición de S hacia A, por lo que se coloca el símbolo a. Los símbolos b y ε están dentro de un ciclo, esto significa que puede haber una b o ninguna, por ε que significa la cadena vacía o nada. Para esto, tenemos la cerradura de Kleene y puede ser identificada simplemente como b* Esto significa un símbolo b o nada.  ",
+      "Paso 3. Para terminar el lenguaje regular, tenemos la posibilidad de un símbolo a o nada y este es el lenguaje aceptado, en función de que llega al estado final A.  ",
+      "Conclusión: El lenguaje regular lineal por la derecha queda como: LR = ab*a*",
+      "NOTA: La última “a” del estado A hacia S ya no es necesaria debido a que no tiene dirección al estado final sino al contrario.",
+
+      "Ejemplo Con base a la siguiente gramática lineal regular con producciones épsilon por la derecha, genere el diagrama de autómata finito No determinístico correspondiente y desarrolle el lenguaje regular (LR) con base a las siguientes reglas de producción: ",
+      "S → aB|bA|ε ",
+      "A → aA|bB|ε ",
+      "B → b|ε",
+
+      "Solución. Primero se dibuja el autómata finito determinístico con épsilon transiciones correspondientes a las tres reglas de producción de S, A, B. Para hacer la conversión más evidente u objetiva, se muestra a continuación un árbol de derivación de las tres reglas de producción para identificar los ciclos que en un diagrama de autómatas corresponde a la cerradura positiva (cuando no se tiene a la cadena vacía ε) o bien cerradura de Kleene cuando si incluye a la cadena vacía ε.",
+      "En este árbol de derivación obtenemos la cadena a (por la regla aB), al sustituir la B, tenemos b (con minúscula o símbolo terminal), después nuevamente una a (por la regla aA que se repite debido a que en A tenemos la producción A→aA y esto crea un ciclo al igual que B→ b y de ahí queda (ab)* ya que en ambas (a, b) se tiene a la cadena vacía épsilon (ε).",
+      "Con la derivación de bababab…∞ generamos el lenguaje regular LR= b(ab)* Siguiendo los tres pasos para construir un autómata finito no determinístico o diagrama de Moore descritos en el punto 5.1.2 Tenemos el autómata de la figura 5.18.",
+
+      "Este autómata finito No determinístico genera el lenguaje regular LR = b(ab)* Definido por una gramática lineal regular por la derecha. (No se incluye en el lenguaje regular la a que va de A para S porque S no es estado final, tampoco se incluye el símbolo terminal b de S a B porque tampoco B es un estado final)."
+    ],
+    "palabrasClave": [
+      "autómata finito",
+      "Autómata Finito NO determinístico con Épsilon Transiciones",
+      "Q = {S, B}",
+      "q0,q1,…, qf",
+      "Reglas de producción de una gramática lineal por la derecha",
+      "cuatro reglas de producción",
+      "Gramática regular por la derecha",
+      "gramática lineal regular con producciones épsilon por la derecha"
+    ],
+    "imagen": ["f5.16.1", "f5.17", "f5.18."],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 64,
+    "unidad": 5,
+    "title": "Equivalencias de una Gramática Regular Lineal por la izquierda",
+    "contenido": [
+      "Método para pasar de una Gramática Regular Lineal por la Izquierda a un AFN con Épsilon Transiciones",
+      "De la misma forma que realizamos la conversión para una gramática regular lineal por la derecha, aplicaremos los mismos pasos para ésta conversión, solo que ahora partiendo de una gramática cuyas derivaciones son de la forma descrita en el punto V.1 de este material que es una gramática regular lineal por la izquierda, por ejemplo.",
+      "GR = ({ 0, 1}, {A, B}, A, { A ::= B1 | 1 , B ::= A0})",
+
+      "Tomamos esta forma de representar una gramática regular lineal por la izquierda, para realizar paso a paso una transformación a:",
+
+      "M = {Q, Σ, q0, δ, F} que es la representación formal de una Autómata Finito No determinístico (AFN).",
+
+      "Para este ejemplo sustituimos {0, 1} como Σ el cual se define como:Σ = {0, 1}. ",
+      "Después sustituimos {A, B} como el conjunto de estados o bien Q, donde Q = {A, B}. ",
+      "La variable no terminal A, corresponde al estado inicial q0, esto es: (A = {q0}), también sustituimos el estado final F por la letra B y B1.",
+
+      "Por último,δ también definida como las transiciones, queda definida como las reglas de producción:",
+
+      "{ A ::= B1 | 1 , B ::= A0}que también se pueden representar como: ",
+      "1) A → B1|1 ",
+      "2) B →A0 F = B y, que se lee como F o estado final es la variable no terminal B.",
+
+      "La anterior gramática regular se puede representar también en un árbol según se muestra en la figura 5.19",
+      "Como resultado de un recorrido del árbol de izquierda a derecha tenemos las siguientes cadenas como parte de un lenguaje regular LR. En vez de la B de la segunda regla de producción, (B1101), la sustituimos por A0 y en A, por regla uno la sustituimos por el símbolo terminal 1 y queda 10, luego tomamos los símbolos terminales 1101 y queda: LR = 101101",
+      "Dado que la B está produciendo A0 y A produce un 1, podemos tener que B → 10 y también A → B1",
+      "Esto es 101 (Sustituyendo la B por 10) tenemos cadenas infinitas en la función de A que produce B y B que produce A de tal forma que: B →10 y A→101 por lo tanto A → (10)1→ B1|1",
+
+      "Formalmente tenemos: M = {Q, Σ, S, δ, B}",
+      "Se transforma la gramática para que no haya regla como:",
+      "1) B ::= A0. Se crea un nuevo A. ",
+      "2) Se crean las reglas A::=B1|1 ",
+      "3) Se crea la regla B::=0A’0 ",
+      "4) Se borra la regla B::=A0",
+      "La Gramática resultante es: GR =({ 0, 1}, {A, B,A’}, A, {A ::= B1|1,A’::=B1 | 1 , B::=A’ 0})",
+
+      "Este autómata finito No determinístico genera el lenguaje regular LR= b(ab)* Definido por una gramática lineal regular, donde b = 1 y a = 0 de lo cual queda LR= 1(01)* Se transforma en las reglas, de la Gramática lineal por la derecha equivalente: ",
+      "GR2 = ({ 0, 1}, {A, B,A’}, A, { A ::= 1 A’ | 1 ,A’::= 0B, B ::= 1 A’ | 1}) y obtenemos el autómata de la figura 5.20",
+      "Ejemplo",
+      "A continuación, se demostrará la equivalencia entre ambas representaciones: Lineal izquierda y Lineal derecha. Gracias a que, para cada gramática lineal derecha existe una gramática lineal izquierda equivalente y viceversa. El algoritmo para convertir una gramática lineal derecha en otra equivalente lineal izquierda tiene cuatro pasos.",
+      "1. Se transforma la gramática de forma que no haya ninguna regla en cuya parte derecha esté el axioma de la gramática, cuando esto ocurre se denomina axioma inducido, para ello se aplica el siguiente proceso.  ",
+      "Se crea un nuevo símbolo no terminal inicial S´  ",
+      "Para cada regla de la forma S ::= x, donde S es el axioma y x∈Σ*, se crea una nueva regla S´::= x.  ",
+      "Cada regla de la forma de A::= xSy donde A∈ΣN y,  x, y∈Σ*, se transforma en A::= x S´y ",
+      "2. Se crea un grafo G dirigido:  ",
+      "Para cada A∈ΣNU{λ} se crea un nodo λ.  ",
+      "Para cada producción (A::= aB)∈P(A, B∈ΣN, a∈ΣT), se crea un arco etiquetado con a que va del nodo A al nodo B.  ",
+      "Para cada producción (A::= a)∈P(a∈ΣT), se crea un nodo etiquetado con a que va del nodo A al nodo λ.  ",
+      "Si existe una regla S::= λ,se crea un arco sin etiqueta desde el nodo del axioma al nodo λ.",
+      "3. Se crea otro grafo G´ a partir de G:  ",
+      "Se intercambian las etiquetas del axioma S y λ.  ",
+      "Se invierte la dirección de todos los arcos.",
+      "4. Se transforma en un conjunto de reglas.  ",
+      "Para cada nodo, se crea un símbolo no terminal de la gramática, excepto para el etiquetado como λ (cuyo símbolo puede ser épsilon ε).  ",
+      "Para cada arco etiquetado con a∈ΣT que va del nodo A∈ΣN U{λ},se crea una producción A::= Ba",
+      "Si existe un arco del nodo del axioma al nodo de λ,se crea .una regla S::= λ.",
+
+      "El algoritmo para realizar el paso inverso es similar al descrito. Supóngase la siguiente gramática lineal derecha: ",
+      "G = ({0,1}, {A, B}, A, P) ",
+      "P = {(A::= 1B), (A::= λ),(B::= 0A), (B::=0)}",
+
+      "La gramática lineal izquierda equivalente se formará en los siguientes cuatro pasos. ",
+      "1. Se transforma la gramática de forma que no aparezca la A en la parte derecha de la producción B::=0A  ",
+      "Se crea un nuevo símboloA’  ",
+      "Se crea las reglasA’::= 1B yA’::= λ  ",
+      "Se crea la regla B::= 0A’  ",
+      "Se borra la regla B::= 0A La gramática queda como:G´ = ({0,1}, {A, B,A’}, A, P) P´ = {(A::= 1B), (A::= λ),(A’::= 1B),(A’::= λ),(B::= 0A’), (B::=0)} Como la gramática por definición no puede tener la reglaA’::= λ,ya queA’ en todas las producciones en las que aparezca en la parte derecha quedando la gramática como:G´´ = ({0,1}, {A, B,A’}, A, P) P´ = {(A::= 1B), (A::= λ), (A’::= 1B), (B::= 0A’),(B::=0)} ",
+      "2. Se crea un grafo que represente las transiciones de esta gra3. Se invierte el grafo Se transforma el grafo en la siguiente gramática: G´´´ = ({0,1}, {A, B,A’}, A, P) P´ = {(A::= B0), (A::= λ), (A’::= B0), (B::=A’1), (B::=1)}",
+
+      "En la figura 5.21 se muestra el Autómata con la gramática lineal izquierda",
+
+      "Figura 5.21 Diagrama de estados para la expresión regular 1|10|(101)*",
+
+      "El Autómata con la gramática lineal derecha siguiendo los cuatro pasos ya descritos se muestra en la figura 5.22"
+    ],
+    "imagen": ["f5.19", "f5.20", "f5.21.", "f5.22."],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 65,
+    "unidad": 5,
+    "title": "Método para pasar de un AFN con Épsilon Transiciones a una Gramática Regular Lineal por la Izquierda ",
+    "contenido": [
+      "Tomando como base el siguiente autómata finito No determinista con épsilon transiciones el cual corresponde a una gramática lineal regular, se va a describir un método simple para obtener la comprobación de que corresponde a una gramática lineal regular por la izquierda.",
+      "GR = ({ a, b}, {A, B, C, D}, A, S::= A, F::=D, P) El diagrama para esta gramática está en la figura 5.23",
+
+      "Las reglas de producción P de la gramática regular son:",
+      "A ::= A|aB|a|b|ε ",
+      "B ::= bC ",
+      "C ::= bD ",
+      "D ::= ε",
+      "El árbol correspondiente para visualizar el tipo de gramática es el siguiente: ",
+      "La anterior gramática regular se puede representar también en un árbol en la figura 5.24",
+
+      "Este árbol muestra un ciclo en A; representa la posibilidad de que se repita a o b o ε, esto es, (a|b)* y corresponde a la cerradura de Klenee, también observamos que además del ciclo en A, tenemos la cadena abb. Uniendo todos los ítems tenemos: (a|b)*abb",
+
+      "Aplicando los cuatro pasos descritos a continuación, cambiamos esta gramática lineal o regular por la derecha a la izquierda.",
+
+      "1. Se crea el símbolo A’ ",
+      "2. Se crea las reglas A’ ::= A’, A’::= a|b|ε A’ ::= aD, A’ ::= λ ",
+      "3. Se crea la regla D::= bC, C ::= bB, B::= λ ",
+      "4. Se borra la regla A::= A|aB|a|b|ε",
+
+      "Se tienen las siguientes reglas de producción P de la gramática:",
+      "A’ ::=A’|a|b|ε|aD|λ ",
+      "D ::= bC C ::= bB",
+      "B ::= λ ",
+      "GR = ({a, b}, {A, B, C, D}, A, S ::= A, F ::= D,P)",
+
+      "Correspondiente al autómata que se muestra en la figura 5.25"
+    ],
+    "imagen": ["f5.23", "f5.24", "f5.25.", "f5.26."],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 66,
+    "unidad": 5,
+    "title": "Generación de los ‘Items’ de un Gramática",
+    "contenido": [
+      "La generación de los “Items” de una gramática los podemos describir como el recorrido que se realiza a través de todos y cada uno de los elementos léxicos (simbólicos), sintácticos (de orden), mismos que quedan definidos con las reglas de producción de la gramática. Éstas objetivamente se siguen en el recorrido de un árbol de análisis sintáctico, tal como se demostró en el subtema anterior, en el “ítem” (a|b|ε)*abb.",
+      "La generación de “Items”se puede realizar de dos formas:",
+
+      "1) Manual, observando los árboles de derivación, los diagramas de autómatas donde se determinan el conjunto de elementos simbólicos que integrarán cadenas o bien palabras que serán parte del lenguaje regular aceptado. Esto se basa en la definición formal del lenguaje con el tipo de gramática. Esta definición, también se puede programar en diferentes lenguajes como se muestra en la simulación donde que se comenta en la siguiente forma de generar “Items”.",
+      "2) Automática o programada, esto se permite gracias a que varios lenguajes de programación como C, JAVA, awk, etc., aceptan expresiones regulares que permite separar “Items” en dos tipos:",
+      "Cadenas rechazadas y Cadenas aceptadas por el lenguaje, según las reglas de producción que se programan tal como ya se explicó. En este subtema se muestra la simulación de un autómata finito determinista codificado en lenguaje C:",
+      "s = s0;",
+      "c = sigCar( ); ",
+      "while (c!= eof) { ",
+      "s = mover(s, c); ",
+      "c = sigCar( ); ",
+      "}",
+      "If (s está en F) return“si”; ",
+      "else return“no”;",
+      "Entrada: Una cadena de entrada x,que se termina con un carácter de fin de archivo",
+      "EOF. Un AFD D con el estado inicial s0, que acepta estados F, y la función de transición mover. ",
+      "Salida: Responde “sí” en caso de que D acepte a x, “no” en caso contrario. ",
+      "Método:Aplicar el algoritmo arriba transcrito del libro Aho, Alfred V., “Compiladores, principios, técnicas y herramientas, segunda edición, Edit. Pearson, México 2008. La cadena de entrada x, La función mover(s, c) proporciona el estado para el cual hay un flanco desde el estado s sobre la entrada c. ",
+      "La función sigCar devuelve el siguiente carácter de la cadena de entrada x.",
+
+      "Ejemplos:",
+      "1) Genere el autómata y la expresión regular que acepte caracteres alfabéticos de la letra o símbolo a, b, c, d, …, z (esto es, de la letra a la letra z en minúsculas).",
+      "Respuesta:Tenemos el siguiente autómata.",
+      "Escribir dentro de corchetes la a-z significa abarcar un rango de caracteres o símbolos de la letra a hasta la letra zen minúsculas. En awk la expresión regular es: /[a-z]/ misma que corresponde a la gramática regular: ",
+      "GR = ({a-z}, {q0, qf}, P{ q0 ::= a-z})  Según se muestra en la figura 5.27",
+      "La expresión regular correspondiente en una expresión regular que acepta directamente el lenguaje intérprete conocido como awk el cual recibe su nombre por sus creadores, a de Alfred Aho, w de Peter Weinberger y k de Brian Kernighan.",
+
+      "2) Genere el autómata y la expresión regular que acepte caracteres alfabéticos de la letra o símbolo a, b, c, d, …, z (esto es, de la letra a la letra z en minúsculas). Además,que acepte cualquier combinación de estos caracteres en cualquier orden. Esto significa que se dará la posibilidad de que se tengan como cadenas aceptadas las palabras que se forman con letras minúsculas de cualquier tamaño o número de caracteres y se rechazan cadenas que incluyan letras mayúsculas.",
+      "   Respuesta:",
+      "Tenemos el siguiente autómata. ",
+      "GR = ({a-z}, { q0, qf}, P{ q0 ::= a-z}) que se muestra en la figura 5.28",
+      "La expresión regular correspondiente en awk queda simplemente como:/[a-z]*/ y con este autómata, se tiene que para que se acepte una cadena deberá tener al menos un símbolo que puede ser una a, b, c, d, e, f, …, z.",
+
+      "3) Genere el autómata y la expresión regular que acepte exclusivamente caracteres numéricos con o sin signo. Esto significa que se dará la posibilidad de que se tengan como cadenas aceptadas las palabras que se forman con números del 0 al 9 positivos, sin signo y cantidades negativas.",
+      "La expresión en awk para aceptar cadenas exclusivamente numéricas del 0 al 9 en números enteros positivos, negativos o sin signo es la siguiente: /^[+-]?[0-9]*/ Esto significa para el lenguaje que al dar como circunflejo, tendrá la posibilidad de los símbolos + o – o nada que es lo que significa el signo de interrogación ?, hace que el contenido de los corchetes sea opcional y al final la expresión regular que ya hemos utilizado en el ejemplo anterior que es el aceptar números del 0 al 9 en cualquiera de sus combinaciones que es la representación del asterisco * cómo cerradura de Kleene, cerrando la expresión con otro slash /.",
+
+      "Como estos tres ejemplos de generación de “Items” con expresiones regulares podemos obtener cualquier cantidad de cadenas aceptadas o rechazadas, dependiendo de lo que necesitamos definir dentro de las reglas de producción, esto es una ventaja significativa de los lenguajes regulares."
+    ],
+    "palabrasClave": [
+      "La generación de los “Items” de una gramática",
+      "elementos léxicos (simbólicos)",
+      "sintácticos (de orden)",
+      "Items",
+      "Manual",
+      "Automática o programada",
+      "Cadenas rechazadas",
+      "Cadenas aceptadas",
+      "Entrada",
+      "EOF",
+      "Salida",
+      "Método",
+      "función sigCar",
+      "circunflejo"
+    ],
+    "imagen": ["f5.27", "f5.28", "f5.29"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 67,
+    "unidad": 5,
+    "title": "Simplificación de un AFD ",
+    "contenido": [
+      "Paso 2. Organizamos los estados del autómata en los dos conjuntos cuyos elementos son:",
+      "1) Un conjunto con los estados de aceptación, según nuestros diagramas, éstos son todos aquellos estados que tienen doble círculo, esto significa que, si se llega a ellos mediante símbolos que le preceden, las cadenas que se forman son aceptadas. Estos estados también se les conoce como estados de equivalencia de longitud uno o bien de clase cero, abreviando C0 significa el conjunto cociente de la relación de equivalencia de la longitud que es cero, porque en éstos estados, cualquiera de ellos, se llega a un estado de equivalencia de aceptación cero. ",
+      "2) El otro conjunto se integra con los estados que no son de aceptación, esto es, estados que se les conoce como de clase uno, abreviando C1.",
+
+      "¿Por qué se dice que hay estados equivalentes de longitud cero?",
+      "Respuesta: Porque si estamos en algún estado de partida (del lado de inicio) y se recibe una cadena de longitud cero. Si se llega inmediatamente a un estado de aceptación, se dice que esos estados son equivalentes de longitud cero.",
+
+      "Paso 3. Se toman parejas de estados de la misma clase C0 y C1 observando en el diagrama de autómata para cada pareja, ¿A dónde nos vamos con cada uno de los símbolos del alfabeto? Esto para determinar:",
+
+      "¿Cuáles de los estados que tenemos dentro de cada una de las clases siguen siendo equivalentes cuando reciben una cadena de longitud una unidad mayor? Para esto, tomamos parejas de estados de una misma clase y veremos a qué estado se llega para cada una de las posibles entradas. Si los estados destino para cada entrada pertenecen a la misma clase, los estados de partida seguirán siendo equivalentes.",
+
+      "Paso 4. Se toman parejas de estados de la misma clase C0, C1, C2, etc. Esto hasta que no tengamos más clases. Con cada uno de los grupos por clases, se agrupan en un nuevo estado y se construye el nuevo autómata.",
+
+      "Paso 5.Este paso ya se puede considerar opcional pero muy útil, ya que se generan “Items” del autómata original y se verifican con los que se pueden generar con el nuevo autómata mínimo o reducido si las cadenas generadas son iguales podemos comprobar que se tratan de autómatas equivalentes.",
+
+      "Ejemplo: Con el autómata de la figura 5.30 realice la reducción a su forma mínima equivalente",
+      "Figura 5.30. Diagrama esquemático para mostrar un AFD de [0|1|ε]",
+
+      "Solución. Paso 1. Empezamos con elaborar una tabla de transiciones del autómata. Q x Σ={0,1}",
+      "Paso 2. Organizamos los estados del autómata en los dos conjuntos.",
+      "1) Clase cero con los estados de aceptación (estados con doble círculo) C0 = {A, B, C, D} ",
+      "2) Clase uno con los estados que no son de aceptación C1 = {E}",
+
+      "Antes de continuar al siguiente paso, es importante dar respuesta a la siguiente cuestión:",
+
+      "¿Por qué se dice que hay estados equivalentes de longitud cero?",
+      "Respuesta: Porque si estamos en algún estado de partida (del lado de inicio) y se recibe una cadena de longitud cero. Si se llega a un estado de aceptación, se dice que esos estados son equivalentes de longitud cero.",
+
+      "Paso 3. Se toman parejas de estados de la misma clase C0 y C1 observando en el diagrama de autómata para cada pareja, ¿A dónde nos vamos con cada uno de los símbolos del alfabeto? Esto para determinar:",
+
+      "¿Cuáles de los estados que tenemos dentro de cada una de las clases siguen siendo equivalentes cuando reciben una cadena de longitud una unidad mayor? Para esto, tomamos parejas de estados de una misma clase y veremos a qué estado se llega para cada una de las posibles entradas. Si los estados destino para cada entrada pertenecen a la misma clase, los estados de partida seguirán siendo equivalentes. E0 nos permite definir al conjunto de estados equivalentes de longitud cero.",
+
+      "A E0 B Esto significa que la pareja de estados A y B son estados equivalentes de longitud cero y de lo que se trata en este paso, con el ejemplo del autómata es verificar que estados siguen siendo equivalentes, pero ahora con longitud uno, esto es, E1 Q/E0 Esto significa estados de equivalencia de longitud cero y Q/E1 es un estado de equivalencia de longitud uno. Q/E0 = {C0 = {A, B, C, D}, C1 = {E}} Estados de equivalencia de longitud cero dividida en dos clases, C0 para estados de aceptación y C1 Para estados de no aceptación.",
+
+      "Paso 4. Se toman parejas de estados de la misma clase C0, C1, C2, etc. Esto hasta que no tengamos más clases. Con cada uno de los grupos por clases, se agrupan en un nuevo estado y se construye el nuevo autómata, como se muestra en la figura 5.31.",
+      "Para este ejemplo en particular tenemos tres clases de equivalencia C0, C1 y C2 Éstas las representamos de la siguiente forma:",
+      "Q/E1 = 4 = {C0 = {A, B}, C1= {E}, C2 = {C, D} ",
+      "Cada clase de equivalencia representará un nuevo estado, esto es, C0 es A, C1es B y C2 es C y el nuevo autómata queda en la figura 5.32",
+      "Paso 5. El lenguaje o cadenas aceptadas que aceptan los dos autómatas es el mismo y este es:L = {ε, 0, 1, 0*, 100*, 0*1, 0*10, 0*(10)*,10,1} Lo que queda demostrado."
+    ],
+    "palabrasClave": [
+      "autómata equivalente",
+      "Teorema de Myhill-Nerode",
+      "conjuntos de estados",
+      "estados de equivalencia",
+      "longitud uno",
+      "clase cero",
+      "estados que no son de aceptación",
+      "clase uno",
+      "C1",
+      "conjunto de estados equivalentes de longitud cero"
+    ],
+    "imagen": ["f5.30", "f5.30.1", "f5.31", "f5.32"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 68,
+    "unidad": 5,
+    "title": "Máquina de Turing",
+    "contenido": [
+      "La máquina de Turing (abreviado MT desde aquí en adelante), recibe su nombre por su creador, el visionario matemático inglés Alan Mathison Turing quien en 1937 publicó un famoso artículo, donde demostró el teorema de “incompletitud” de Kurt Gödel quién lo desarrolló en 1931. La MT puede considerarse como el origen oficial de la Informática Teórica.",
+      "Turing también es conocido como el padre de la inteligencia artificial, Turing inició con su máquina, sencilla pero ingeniosa emplea un mecanismo que formaliza el concepto de algoritmo, se introduce para demostrar la validez de los postulados de Gödel. Es decir, Turing demostró que existen problemas irresolubles, inasequibles para cualquier máquina de Turing, y por ende, actualmente, para cualquier computadora.",
+      "Al ser la máquina de Turing un modelo ideal de máquina capaz de adoptar una infinidad de estados posibles, resulta obvio pensar que su realización está fuera del alcance práctico. Sin embargo, debido a la gran capacidad de las computadoras actuales, la máquina de Turing resulta ser un modelo adecuado para su funcionamiento."
+    ],
+    "palabrasClave": ["MT", "incompletitud"]
+  },
+  {
+    "id": 69,
+    "unidad": 5,
+    "title": "¿Qué es y cómo se comporta la MT (Máquina de Turing?",
+    "contenido": [
+      "Consideramos importante para este material el recordar que dentro de un dispositivo electrónico como puede ser una computadora, se tienen dos elementos básicos, ",
+      "El primero es su funcionamiento que para esta descripción se refiere a los elementos físicos o hardware con su interacción, esto corresponde al ámbito del diseño digital, circuitería, alimentación, etc. El segundo elemento es lo que corresponde a su comportamiento, que es lo referente a lo lógico, también conocido como elementos de software, aquí se incluyen los elementos como el lenguaje y las decisiones que se toman para el procesamiento de los estímulos de entrada que generan salidas o resultados en base a la lógica programada o descrita en algún lenguaje de programación.",
+      "La MT es un dispositivo de reconocimiento de lenguajes formales o regulares, es más general que cualquier autómata finito y cualquier autómata de pila, debido a que ellas pueden reconocer tanto los lenguajes regulares, como los lenguajes independientes de contexto y además otros tipos de lenguajes, como los lenguajes de programación.",
+
+      "La MT se comporta de una forma muy simple comparada con las modernas computadoras actuales,sin embargo,su importancia es gracias a que con un mecanismo muy sencillo que consiste en: un control finito, una cabeza lectora y una cinta donde puede haber caracteres o símbolos, mismos que eventualmente tienen la palabra de entrada. La cinta es de longitud infinita hacia la derecha, hacia donde se extiende indefinidamente, llenándose los espacios con el carácter blanco (que,para este ejemplo, lo representaremos con un símbolo “t”). La cinta no es infinita hacia la izquierda, por lo que hay un cuadro de la cinta que es el extremo izquierdo, la MT la cabeza lectora es de lectura y escritura, por lo que la cinta puede ser modificada en curso de ejecución.",
+      "Además, en la MT la cabeza se mueve bidireccionalmente (izquierda y derecha), por lo que puede pasar repetidas veces sobre un mismo segmento de la cinta. Estos últimos elementos descritos que son de funcionamiento fueron simplificados para dejar muy claro su importancia y consiste es haber sido la primera máquina que procesa el primer lenguaje formal que dio origen a muchos otros lenguajes de programación.",
+      "La MT es un modelo que está conformado por un alfabeto de entrada y uno de salida, un símbolo especial llamado blanco (normalmente b, Δ o 0), un conjunto de estados finitos y un conjunto de transiciones entre dichos estados. Su funcionamiento se basa en una función de transición, que recibe un estado inicial y una cadena de caracteres (la cinta, la cual es finita por la izquierda) pertenecientes al alfabeto de entrada. Luego va leyendo una celda de la cinta, borrando el símbolo, escribir el nuevo símbolo perteneciente al alfabeto de salida y finalmente avanza a la izquierda o a la derecha (solo una celda a la vez), repitiendo esto según se indique en la función de transición, para finalmente detenerse en un estado final o de aceptación, representando así la salida. Todo esto ya se esquematiza con anterioridad en el presente capítulo.",
+
+      "La MT consta de un cabezal lector y escritor, así como de la cinta infinita del lado izquierdo y derecho, mismo que pasa por el cabezal de lectura-escritura, también es posible borrar el contenido anterior y escribe un nuevo valor. Las operaciones que se pueden realizar en esta máquina se limitan a avanzar el cabezal de lectura-escritura hacia la derecha o izquierda. El cálculo o proceso es determinado a partir de una tabla de estados de la forma: (estado, valor, nuevo estado, nuevo valor y dirección. Esta tabla toma como parámetros el estado actual de la máquina y el carácter leído de la cinta, dando la dirección para mover el cabezal, el nuevo estado de la máquina y el valor a ser escrito en la cinta. Con este aparato extremadamente sencillo es posible realizar cualquier cómputo o calculo que una computadora digital sea capaz de realizar.",
+
+      "Mediante este modelo teórico y el análisis de complejidad de algoritmos, fue posible la categorización de problemas computacionales de acuerdo a su comportamiento, apareciendo así, el conjunto de problemas denominados P y NP, cuyas soluciones en tiempo polinómico (P) son encontradas según el determinismo y no determinismo o No polinómico (NP), respectivamente de la MT. Se puede probar matemáticamente que para cualquier programa de computadora es posible crear una MT equivalente. Esta prueba resulta de la Tesis de Church-Turing, formulada por Alan Turing y Alonzo Church, de forma independiente a mediados del siglo XX."
+    ],
+    "palabrasClave": ["P", "NP", "No polinómico"]
+  },
+  {
+    "id": 70,
+    "unidad": 5,
+    "title": "¿Cómo funciona una MT?",
+    "contenido": [
+      "Una MT es un dispositivo que transforma un INPUT (entrada) en un OUTPUT (salida) después de algunos pasos. Tanto el INPUT como el OUPUT constan de números en código binario (ceros y unos). En su versión original la máquina de Turing consiste en una cinta infinitamente larga con unos y ceros que pasa a través de una caja. La caja es tan fina que solo el trozo de cinta que ocupa un bit (0 ó 1) está en su interior. Tiene una serie de estados internos finitos que también se pueden numerar en binario. Para llevar a cabo algún algoritmo, la máquina se inicializa en algún estado interno arbitrario. A continuación, se pone en marcha y la máquina lee el bit que se encuentra en ese momento en su interior y ejecuta alguna operación con ese bit (lo cambia o no, dependiendo de su estado interno). Después se mueve hacia la derecha o hacia la izquierda, y vuelve a procesar el siguiente bit de la misma manera. Al final se para, dejando el resultado al lado izquierdo,por ejemplo.",
+
+      "Una instrucción típica podría ser: 01110111 La traducción es como sigue: si la máquina se encuentra en el estado interno 0 y lee 1 en la cinta, entonces pasará al estado interno 1101 (equivale al 13 en decimal), escribirá 1 y se moverá hacia la izquierda un paso (la cinta se moverá hacia la derecha).A continuación es conveniente inventar una notación para la secuencia del INPUT. Esta notación se llama notación binaria expandida. Consiste en cambiar la secuencia original binaria por otra construida de la siguiente forma: el 0 se cambia por 0 y el 1 por 10 y se ponen un cero a la izquierda y/o a la derecha del resultado si empieza o acaba en 1 respectivamente. Así por ejemplo, el número 13 que en binario es 1101 es en binario expandido 1010010 con un cero delante por esta última regla 01010010. Para volver al original hay que contraer el binario expandido con la siguiente regla: Empezamos a leer por la izquierda el binario expandido. Cuando encontremos un 0 tomamos nota de cuántos 1 hay hasta llegar al siguiente 0 y lo escribimos. Si encontramos que hay dos 0 seguidos, apuntaríamos un 0 porque no habría ningún 1. Veamos con el 13 cómo se haría. El primer 0 se encuentra en la primera posición y el siguiente 0 está en la posición 3. Entre los dos solo hay un 1. Lo anotamos. Seguidamente hay un 1, y después un 0, entonces apuntamos 1 porque hay un 1 entre medias de ellos. Esto es lo que se hace sucesivamente y encontramos: 1101 que es el número original.",
+
+      "La MT consta de un cabezal lector/escritor y una cinta infinita en la que el cabezal lee el contenido, borra el contenido anterior y escribe un nuevo valor. Las operaciones que se pueden realizar en esta máquina se limitan a: avanzar el cabezal lector/escritor hacia la derecha como se muestra en la figura 5.33.",
+
+      "Visualización de una máquina de Turing en la que se ve el cabezal y la cinta que se lee. Avanzar el cabezal lector-escritor hacia la derecha-izquierda.",
+
+      "El cómputo es determinado a partir de una tabla de estados de la forma:(estado, valor) (nuevo estado, nuevo valor, dirección). Esta tabla toma como parámetros el estado actual de la máquina y el carácter leído de la cinta, dando la dirección para mover el cabezal, el nuevo estado de la máquina y el valor a ser escrito en la cinta. La memoria será la cinta la cual se divide en espacios de trabajo denominados celdas, donde se pueden escribir y leer símbolos. Inicialmente todas las celdas contienen un símbolo especial denominado “blanco”. Las instrucciones que determinan el funcionamiento de la máquina tienen la forma, “si estamos en el estado x leyendo la posición y, donde hay escrito el símbolo z, entonces este símbolo debe ser reemplazado por este otro símbolo, y pasar a leer la celda siguiente, bien a la izquierda o bien a la derecha”. La MT puede considerarse como un autómata capaz de reconocer lenguajes formales. En ese sentido es capaz de reconocer los lenguajes recursivamente enumerables, de acuerdo a la jerarquía de Chomsky. Su potencia es, por tanto, superior a otros tipos de autómatas, como el autómata finito, o el autómata con pila, o igual a otros modelos con la misma potencia computacional.",
+
+      "Construcción modular y descripción formal de las máquinas de Turing. Las máquinas de Turing se pueden representar mediante grafos particulares, también llamados diagramas de estados finitos o autómatas de los cuales se muestra en la figura 5.34",
+
+      "Esta Máquina de Turing está definido sobre el alfabeto Σ={a,b,c}, posee el conjunto de estados Q={q0,q1,q2,q3,q4,q5,q6}, con las transiciones que se pueden ver. Su estado inicial es q1 y el estado final es q2, con doble círculo, el lenguaje de salida={X,Y,Z,B} siendo B el símbolo denominado Blanco . Esta Máquina reconoce la expresión regular de la forma {a^n b^n c^n, n>=0}",
+
+      "Los estados se representan como vértices, al igual que otros autómatas, etiquetados con su nombre en el interior. Una transición desde un estado a otro, se representa mediante una arista dirigida que une a estos vértices, y está rotulada por símbolo que lee el cabezal o el símbolo que escribirá el cabezal, movimiento del cabezal. El estado inicial se caracteriza por tener una arista que llega a él, proveniente de ningún otro vértice.",
+
+      "El o los estados finales se representan mediante vértices que están encerrados a su vez por otra circunferencia. Descripción instantánea (abreviada a partir de aquí como DI) Secuencia de la forma α1qα2 donde α1, α2 y Describe la situación de una MT La cinta contiene la cadena α1α2 seguida de infinitos blancos. El cabezal señala el primer símbolo de α2.",
+
+      "Ejemplo: Para la MT=({p, q},{0,1},{0,1,x},δ,p,Δ,{q}) ",
+      "Con las transiciones ",
+      "δ(p,1)=(p,x,D)",
+      "δ(p,0)=(p,0,D) ",
+      "δ(p,Δ)=(q,Δ,D) ",
+      "Realizaremos la DI para la cinta 1011",
+
+      "Ejemplo p1011ΔΔ…→ xp011ΔΔ…→ x0p11ΔΔ...→ x0xp1ΔΔ...→ x0xxpΔΔ...→ x0xxqΔΔ…",
+
+      "Definimos una máquina de Turing sobre el alfabeto {0,1}, donde 0 representa el símbolo blanco. La máquina comenzará su proceso situada sobre un símbolo '1' de una serie. La máquina de Turing copiará el número de símbolos '1' que encuentre hasta el primer blanco detrás de dicho símbolo blanco. Es decir, situada sobre el 1 situado en el extremo izquierdo, doblará el número de símbolos 1, con un 0 en medio. Así, si tenemos la entrada '111' devolverá '1110111', con '1111' devolverá '111101111', y sucesivamente.",
+
+      "El conjunto de estados es Q y el estado inicial es q0. La tabla que describe la función de transición es la siguiente tabla también conocida como de transiciones δ:",
+
+      "Definición formal de una Máquina de Turing (MT), ",
+      "M = (Q, Σ, Γ, q0, T, B, δ)",
+
+      "Dónde: ",
+      "1. Q es un conjunto ﬁnito de estados. ",
+      "2. Σ es el alfabeto de entrada. ",
+      "3. Γ es el alfabeto de la cinta, que incluye: Σ, Σ⊆Γ ",
+      "4. q0∈Q es el estado inicial. ",
+      "5. B∈Γ es el símbolo blanco (el símbolo B no puede hacer parte de Σ) aparece en todas las casillas excepto en aquéllas que contienen los símbolos de entrada. ",
+      "6. T⊆Q conjunto de estados ﬁnales. ",
+      "7. δ es la función de transición tal que: δ: Q × Γ → Q × Γ × {I, D} ",
+      "δ(q, X) = (p, Y, {I, D})",
+
+      "δ es una función parcial, es decir, No puede estar deﬁnida en algunos elementos del dominio.",
+
+      "Ejemplo: Queremos construir una máquina de Turing que veriﬁque si el número de 0s en una palabra es par:",
+      "M = (Q, Σ, Γ, q0, δ, F)  ",
+      "Q = {q0, q1}.  ",
+      "Σ = {0, 1}. ",
+      "Γ = {0, 1, `, B}.  ",
+      "F = {q0}.  ",
+      "δ es deﬁnida como: ",
+      "δ(q0, 0) = (q1, B, D) ",
+      "δ(q0, 1) = (q0, B, D) ",
+      "δ(q1, 0) = (q0, B, D) ",
+      "δ(q1, 1) = (q1, B, D)",
+
+      "Supongamos que w = 00010:  Se realiza un proceso con estos valores en una máquina de Turing que inicia y termina en la figura 5.35 Supongamos que w = 00010:",
+
+      "Conclusión: La máquina acepta w = 00010."
+    ],
+    "palabrasClave": [
+      "INPUT (entrada)",
+      "OUTPUT (salida) ",
+      "cinta infinita",
+      "cabezal lector-escritor",
+      "estado, valor",
+      "nuevo estado, nuevo valor, dirección",
+      "α1qα2",
+      "α1",
+      "α2",
+      "Definición formal de una Máquina de Turing (MT),"
+    ],
+    "imagen": ["f5.33", "f5.34", "f5.34.1", "f5.35"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 71,
+    "unidad": 5,
+    "title": "¿QUÉ OPERACIONES PUEDE REALIZAR UNA MÁQUINA DE TURING?",
+    "contenido": [
+      "1) Parar la computación.",
+      "2) Moverse un cuadrado a la derecha. ",
+      "3) Moverse un cuadrado a la izquierda. ",
+      "4) Escribir el símbolo S0 en lugar de cualquier otro que este en el cuadrado examinado. ",
+      "5) Escribir el símbolo S1 en lugar de cualquier otro que este en el cuadrado examinado."
+    ]
+  },
+  {
+    "id": 72,
+    "unidad": 5,
+    "title": "¿Cómo se lleva a cabo el proceso de reconocimiento de una cadena con una MÁQUINA DE TURING?",
+    "contenido": [
+      " Registrando la cadena a partir de la segunda celda de su cinta  ",
+      "Situando su cabeza de lectura en el extremo izquierdo",
+
+      "Arrancando la máquina desde el estado inicial hasta alcanzar un estado de parada una Máquina de Turing acepta una cadena con dos posibles criterios:",
+      "1. Cuando se detiene en la configuración. ",
+      "2. Cuando simplemente se detiene."
+    ]
+  },
+  {
+    "id": 73,
+    "unidad": 5,
+    "title": "¿De qué depende el movimiento de una MT?",
+    "contenido": [
+      "¿De qué depende el movimiento de una MT? Cada movimiento de la MT con varias cintas depende tanto de su estado, como del símbolo leído por cada una de sus cabezales de cinta."
+    ]
+  },
+  {
+    "id": 74,
+    "unidad": 5,
+    "title": "¿Cuáles son los procesos que puede realizar una MT? ",
+    "contenido": [
+      "Definimos una máquina de Turing sobre el alfabeto {0,1}, donde 0 representa el símbolo blanco. La máquina comenzará su proceso situada sobre un símbolo '1' de una serie. La máquina de Turing copiará el número de símbolos '1' que encuentre hasta el primer blanco detrás de dicho símbolo blanco. Es decir, situada sobre el 1 situado en el extremo izquierdo, doblará el número de símbolos 1, con un 0 en medio. Así, si tenemos la entrada '111' devolverá '1110111', con '1111' devolverá '111101111', y sucesivamente."
+    ]
+  },
+  {
+    "id": 75,
+    "unidad": 5,
+    "title": "¿Cómo decide una MT determinar qué acción debe de tomar?",
+    "contenido": [
+      "La siguiente lista resume las diferencias entre un autómata finito y una máquina de Turing:",
+      "1. Una máquina de Turing puede escribir a una cinta y leer de ella ",
+      "2. La cabeza de la cinta puede moverse a la izquierda y a la derecha ",
+      "3. La cinta es infinita ",
+      "4. Los estados especiales para aceptar y rechazar tienen efecto inmediato",
+      "Consideremos una máquina de Turing M1 para probar la membrecía en el lenguaje B={w#w | w Є { 0, 1 } *}. Es decir, queremos diseñar M1 que acepte la cadena si es miembro de B.",
+
+      "M1 realiza múltiples pases con la cabeza de la cinta sobre la cadena de entrada. En cada pase se compara un carácter a cada lado del símbolo #. Para tener control sobre los símbolos previamente comparados, M1 marca cada símbolo ya examinado. Si se marcan todos los símbolos, esto significa que todo se comparó exitosamente y M1 va a un estado de aceptación. Si se descubre alguna diferencia, M1 va a un estado de rechazo. El siguiente algoritmo resume el funcionamiento de M1.",
+      "M1 = “Sobre la cadena de entrada w:",
+      "1. Barrer la entrada para asegurar que contiene sólo un símbolo #. Si no, rechazar. ",
+      "2. Moverse en zig-zag sobre la cinta en las posiciones correspondientes a cada lado del símbolo # para verificar que estas posiciones contienen el mismo símbolo. Si no, rechazar. Marcar los símbolos según se van verificando para seguir la pista de la correspondencia de símbolos. ",
+      "3. Cuando todos los símbolos a la izquierda del # se han marcado, verificar que no queden símbolos sin revisar. Si quedan símbolos, rechazar; de otro modo aceptar."
+    ]
+  },
+  {
+    "id": 76,
+    "unidad": 5,
+    "title": "CLASIFICACIÓN DE MÁQUINA TURING",
+    "contenido": [
+      "Máquina de Turing Multi-cinta. En este modelo, la máquina de Turing tiene k cintas, infinitas en ambos sentidos, y k cabezales de L/E. Sólo hay una entrada de información, en la primera cinta. Los tres pasos asociados a cada transición son ahora:",
+      "1) Transición de estado, ",
+      "2) Escribir un símbolo en cada una de las celdas sobre las que están los cabezales de L/E. 3) El movimiento de cada cabezal es independiente y será R, L ó NADA (Z).",
+
+      "Máquina de Turing No Determinista. Es una Máquina de Turing con cinta limitada a la izquierda, que se caracteriza por que a partir de un estado y un símbolo puede haber diferentes transiciones, el número de transiciones asociado a cada par ya sea estado o bien símbolo que siempre es finito.",
+
+      "Máquina de Turing Multidimensional. En este modelo la cinta es un “array”o bien arreglo de k dimensiones de celdas, infinito en las dos mil direcciones posibles. Dependiendo del estado y del símbolo leído, hay una transición que difiere de las de la Máquina de Turing unidimensional en que el movimiento puede ser en cualquiera de las dos mil direcciones existentes. Se considera que la entrada está sobre un eje, y que la posición inicial del cabezal está ajustada a la izquierda de esa entrada.",
+
+      "Máquina de Turing con Múltiples Cabezales ",
+      "Tiene k cabezales de L/E, como la multi-cinta, pero con una sola cinta. Los cabezales operan todos de forma independiente. Como en las Máquinas de Turing multi-cinta, se admiten movimientos L, R ó Z.",
+
+      "Máquina de Turing Offline. Es un caso particular de las Máquinas de Turing multi-cinta: tienen una cinta especial de sólo lectura en la que el cabezal, que sólo puede moverse hacia la derecha, no puede moverse de la zona delimitada por un par de símbolos especiales.",
+
+      "2Máquina de Turing con movimiento 'stay' o 'esperar' La función de transición de la MT sencilla está definida por δ :Q x Γ → Q x Γ x {L, R}, la cual puede ser modificada como δ: Q x Γ → Q x Γ x {L, R, S} . Donde S significa 'permanecer' o 'esperar', es decir no mover el cabezal de lectura/escritura. Por lo tanto δ(q, σ ) = (p, σ’, S) significa que se pasa del estado q al p, se escribe σ’ en la celda actual y la cabeza se queda sobre la celda actual, tal como lo muestra la figura 5.36, en donde  significa cabezal y tenemos que en la cinta, el contenido es '1010'",
+
+      "Esta modificación se denota al igual que una MT sencilla, lo que la hace diferente es que la cinta es infinita tanto por la derecha como por la izquierda lo cual permite realizar transiciones iniciales como δ(q0, x) = (q1,y,L). Según se muestra en la figura 5.37",
+
+      "Máquina de Turing con cinta multi-pista Es aquella que mediante la cual cada celda de la cinta de una máquina sencilla se divide en sub-celdas. Cada sub-celda es capaz de contener símbolos de la cinta. La cinta tiene cada celda subdividida en tres sub-celdas. Se dice que esta cinta tiene múltiples pistas puesto que cada celda de esta máquina de Turing contiene múltiples caracteres, el contenido de las celdas de la cinta puede ser representado mediante n-tuplas ordenadas. Los movimientos que realice está máquina dependerán de su estado actual y de la n-tupla que represente el contenido de la celda actual. Cabe mencionar que posee un solo cabezal al igual que una MT sencilla.",
+
+      "Máquinas de Turing multidimensionales ",
+      "Una MT multidimensional es aquella cuya cinta puede verse como extendiéndose infinitamente en más de una dirección, el ejemplo más básico sería el de una máquina bidimensional cuya cinta se extiende infinitamente hacia arriba, abajo, derecha e izquierda según se muestra en la figura 5.38.",
+
+      "En esta modificación de la MT también se agrega dos nuevos movimientos del cabezal {U,D} (es decir arriba y abajo). De esta forma la definición de los movimientos que realiza el cabezal será {L, R, U, D}.",
+
+      "Máquina Universal de Turing Una máquina de Turing computa una determinada función parcial de carácter definido, y unívoca, definida sobre las secuencias de posibles cadenas de símbolos de su alfabeto. En este sentido se puede considerar como equivalente a un programa de ordenador, o a un algoritmo. Sin embargo, es posible realizar una codificación de la tabla que representa a una máquina de Turing, a su vez, como una secuencia de símbolos en un determinado alfabeto; por ello, podemos construir una máquina de Turing que acepte como entrada la tabla que representa a otra máquina de Turing, y, de esta manera, simule su comportamiento.",
+
+      "En 1947, Turing indicó: Se puede demostrar que es posible construir una máquina especial de este tipo que pueda realizar el trabajo de todas las demás. Esta máquina especial puede ser denominada máquina universal.",
+
+      "Esta fue, posiblemente, la idea germinal del concepto de Sistema Operativo, un programa que puede, a su vez, ejecutar en el sentido de controlar otros programas, demostrando su existencia, y abriendo camino para su construcción real. Con esta codificación de tablas como cadenas, se abre la posibilidad de que unas máquinas de Turing se comporten como otras máquinas de Turing. Sin embargo, muchas de sus posibilidades son indecidibles, pues no admiten una solución algorítmica. Por ejemplo, un problema interesante es determinar si una máquina de Turing cualquiera se parará en un tiempo finito sobre una determinada entrada; problema conocido como Problema de la parada, y que Turing demostró que era indecidible. En general, se puede demostrar que cualquier cuestión no trivial sobre el comportamiento o la salida de una máquina de Turing es un problema indecidible.",
+
+      "Máquina de Turing Cuántica. En 1985, Deutsch presentó el diseño de la primera Máquina Cuántica basada en una máquina de Turing. Con este fin enunció una nueva variante la tesis de Church dando lugar al denominado 'Principio de Church-Turing-Deutsch' según se muestra en la figura 5.39",
+
+      "La estructura de una máquina de Turing cuántica es muy similar a la de una máquina de Turing clásica. Está compuesta por los tres elementos clásicos:",
+      "*Una cinta de memoria infinita en que cada elemento es un QuBit  ",
+      "*Un procesador finito.  ",
+      "*Un cursor",
+      "El procesador contiene el juego de instrucciones que se aplica sobre el elemento de la cinta señalado por el cursor. El resultado dependerá del QuBit de la cinta y del estado del procesador. El procesador ejecuta una instrucción por unidad de tiempo.",
+      "La cinta de memoria es similar a la de una máquina de Turing tradicional. La única diferencia es que cada elemento de la cinta de la máquina cuántica es un QuBit. El alfabeto de esta nueva máquina está formado por el espacio de valores del QuBit. El cursor es el elemento que comunica la unidad de memoria y el procesador. Su posición se representa con una variable entera."
+    ],
+    "palabrasClave": [
+      "Máquina de Turing Multi-cinta",
+      "Máquina de Turing No Determinista. ",
+      "Máquina de Turing Multidimensional. ",
+      "Máquina de Turing con Múltiples Cabezales ",
+      "Máquina de Turing Offline.",
+      "Máquina de Turing con movimiento 'stay' o 'esperar'",
+      "Máquina de Turing con cinta multi-pista ",
+      "Máquinas de Turing multidimensionales",
+      "MT multidimensional ",
+      "Máquina Universal de Turing",
+      "Máquina de Turing Cuántica."
+    ],
+    "imagen": ["f5.36", "f5.37", "f5.38", "f5.39"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 77,
+    "unidad": 5,
+    "title": "LENGUAJE ACEPTADO POR UNA MT",
+    "contenido": [
+      "Aceptan lenguajes formales que pueden ser generados por una gramática de tipo 0: recursivamente innumerable. Las máquinas de Turing son los reconocedores de lenguaje más poderosos que existen.",
+      "Lenguajes regulares. Las gramáticas (de tipo 3) formales definen un lenguaje describiendo como se pueden generar las cadenas del lenguaje… Las gramáticas regulares (aquellos reconocidos por un autómata finito). Son las gramáticas más restrictivas. El lado derecho de una producción debe contener un símbolo Terminal y como máximo un símbolo no Terminal.",
+
+      "Máquinas de Turing Deterministas y no Deterministas ",
+      "La entrada de una máquina de Turing viene determinada por el estado actual y el símbolo leído, un par [estado, símbolo], siendo el cambio de estado, la escritura de un nuevo símbolo y el movimiento las acciones a tomar en función de una entrada. En el caso de que para cada par estado y símbolo posible exista a lo sumo una posibilidad de ejecución, se dirá que es una máquina de Turing determinista, mientras que en el caso de que exista al menos un par [estado, símbolo] con más de una posible combinación de actuaciones se dirá que se trata de una máquina de Turing no determinista. La función de transición δ en el caso no determinista, queda definida como sigue:",
+
+      "¿Cómo sabe una máquina no determinista cuál de las varias actuaciones tomar? Hay dos formas de verlo: una es decir que la máquina es 'el mejor adivino posible', esto es, que siempre elige la transición que eventualmente la llevará a un estado final de aceptación. La otra es imaginarse que la máquina se 'clona', bifurcándose en varias copias, cada una de las cuales sigue una de las posibles transiciones. Mientras que una máquina determinista sigue un solo 'camino computacional', una máquina no determinista tiene un 'árbol computacional'. Si cualquiera de las ramas del árbol finaliza en un estado de aceptación, se dice que la máquina acepta la entrada.",
+
+      "La capacidad de cómputo de ambas versiones es equivalente; se puede demostrar que dada una máquina de Turing no determinista existe otra máquina de Turing determinista equivalente, en el sentido de que reconoce el mismo lenguaje, y viceversa. No obstante, la velocidad de ejecución de ambos formalismos no es la misma, pues si una máquina no determinista M reconoce una cierta palabra de tamaño n en un tiempo O(t(n)), la máquina determinista equivalente reconocerá la palabra en un tiempo O(2t(n)). Es decir, el no determinismo permitirá reducir la complejidad de la solución de los problemas, permitiendo resolver, por ejemplo, problemas de complejidad exponencial en un tiempo polinómico. ",
+
+      "Lenguajes Libres de contexto. Estas gramáticas conocidas también como gramáticas de tipo 2 o gramáticas independientes del contexto, son las que generan los lenguajes libres o independientes del contexto. Los lenguajes libres del contexto son aquellos que pueden ser reconocidos por un autómata de pila determinístico o no determinístico. Como toda gramática se definen mediante una cuadrupla (G=N, T, S, P), siendo N un conjunto finito de símbolos no terminales; T un conjunto de símbolos terminales: P un conjunto finito de producciones; S es el símbolo distinguido o axioma."
+    ],
+    "palabrasClave": [
+      "Máquinas de Turing Deterministas y no Deterministas ",
+      "¿Cómo sabe una máquina no determinista cuál de las varias actuaciones tomar?",
+      "Lenguajes Libres de contexto. ",
+      "Lenguajes regulares. ",
+      "cuadrupla (G=N, T, S, P)",
+      "camino computacional",
+      "el mejor adivino posible",
+      "clona"
+    ]
+  },
+  {
+    "id": 78,
+    "unidad": 5,
+    "title": "DEFINA MATEMÁTICAMENTE CUALES SON LOS LENGUAJES QUE ACEPTA UNA MT",
+    "contenido": [
+      "DEFINA MATEMÁTICAMENTE CUALES SON LOS LENGUAJES QUE ACEPTA UNA MT",
+      "La máquina de Turing es un modelo computacional publicado por la Sociedad Matemática de Londres en 1936, en el cual se estudiaba la cuestión planteada por David Hilbert sobre si las matemáticas son decidirles, es decir, si hay un método definido que pueda aplicarse a cualquier sentencia matemática y que nos diga si esa sentencia es cierta o no. Turing ideó un modelo formal de computador, la máquina de Turing, y demostró que existían problemas que una máquina no podía resolver. La máquina de Turing es un modelo matemático abstracto que formaliza el concepto de algoritmo."
+    ]
+  },
+  {
+    "id": 79,
+    "unidad": 5,
+    "title": "VARIACIONES DE MÁQUINAS DE TURING",
+    "contenido": [
+      "• Más de una cinta de memoria",
+      "• Memoria ilimitada también por la izquierda ",
+      "• Entrada en la cinta de memoria ",
+      "• Memoria en varias dimensiones",
+      "• Máquina no determinista"
+    ]
+  },
+  {
+    "id": 80,
+    "unidad": 5,
+    "title": "DIAGRAMA DE TRANSICIÓN ",
+    "contenido": [
+      "Un diagrama de transición está formado por un conjunto de nodos que corresponden a los estados de la MT. La transición δ(q, a) = (p, b, D) se representa en la figura 5.40",
+
+      "Control finito estacionario. El control ﬁnito estacionario es una transición que tiene la forma: δ(q, a) = (p, b, N) donde a, b∈Γ y N representa un No desplazamiento. ",
+
+      "MT con transiciones estacionarias. Los MT con transiciones estacionarias δ(q, a)= (p, b, N), aceptan los mismos lenguajes que los MT estándares. La directiva N también se puede simular con un movimiento a la izquierda, seguido de un retorno a la derecha.",
+
+      "Ejemplo: Se puede construir una MT que reconozca a∗sobre Σ = {a, b}. ",
+      "Para M = (Q, Σ, Γ, q0, T, B, δ) donde Q= {q0, q1}, T = {q1} ",
+      "δ(q0, a) = (q0, a, D) ",
+      "δ(q0, B) = (q0, a, D) ",
+      "Sea w = aa q0aaⱵ aq0aⱵ aaq0BⱵ aaBq1B ",
+      "Por tanto esta máquina para en el estado q1 y reconoce la cadena que muestra la figura 5.41."
+    ],
+    "imagen": ["f5.40"],
+    "extencion": ["jpeg"],
+    "palabrasClave": [
+      "MT con transiciones estacionarias",
+      "DIAGRAMA DE TRANSICIÓN ",
+      "Control finito estacionario."
+    ]
+  },
+  {
+    "id": 81,
+    "unidad": 5,
+    "title": "MT COMO GENERADORAS DE LENGUAJE ",
+    "contenido": [
+      "MT COMO GENERADORAS DE LENGUAJE Otra de las capacidades importantes es la de generar lenguajes, tarea en la cual los estados ﬁnales son necesarios. Concretamente una MT M = (Q, Σ, Γ, q0, B, δ) genera un lenguaje L⊆Σ∗si: ",
+      "1. M comienza a operar con la cinta en blanco en el estado inicial q0. ",
+      "2. Cada vez que M retorna al estado inicial q0, hay una cadena u∈L escrita sobre la cinta. ",
+      "3. Todas las cadenas de L son, eventualmente, generadas por M."
+    ],
+    "imagen": ["f5.41"],
+    "extencion": ["jpeg"]
+  },
+  {
+    "id": 82,
+    "unidad": 5,
+    "title": "Constructor",
+    "contenido": [
+      "TÉCNICAS PARA LA CONSTRUCCIÓN DE UNA MT Existen técnicas que facilitan la construcción de MT, pero no afectan la potencia computacional del modelo ya que siempre se puede simular la solución obtenida mediante el modelo estándar.",
+
+      "Almacenamiento en el control ﬁnito. Se puede utilizar el estado de control para almacenar una cantidad ﬁnita de información. δ([qi, Γ], σ) = ([qt, Γ], β, {I, D, N}) Cada estado se representa como un par ordenado [qi, Γ] donde el primer elemento es el estado real y el segundo la información que se pretende almacenar, además σ, β∈Γ ",
+
+      "Ejemplo: Construir una MT que reconozca: L = 01∗+ 10∗ Para la máquina M = (Q, Σ, Γ, q0, T, B, δ): Q = {q0, q1} × {0, 1, B} Estado inicial [q0, B] Estado ﬁnal [q1, B]",
+      "La función de transición δ esta dad por:",
+      "δ([q0, B], 0) = ([q1, 0], 0, D) ",
+      "δ([q1, 0], 1) = ([q1, 0], 1, D) ",
+      "δ([q1, 0], B) = ([q1, B], B, D) ",
+      "δ([q0, B], 1) = ([q1, 1], 1, D) ",
+      "δ([q1, 1], 0) = ([q1, 1], 0, D) ",
+      "δ([q1, 1], B) = ([q1, B], B, D)",
+      "El autómata de la máquina de Turing se muestra en la figura 5.42",
+
+      "Uso de subrutinas Es la misma idea cuando se trabaja en un lenguaje de alto nivel, aprovechar las ventajas del diseño modular para facilitar el diseño de la MT. En una tabla de transición se resuelve el problema de llamados:",
+      "*Habrá estados de “llamados a subrutina” ql caracterizados por que suponen la transición al estado inicial de una “subrutina”.  ",
+      "*El estado final de la subrutina será realmente un estado de salida que permite transitar hacia un estado de return en la MT “principal” según se muestra en la figura 5.44.",
+
+      "¿Por qué las máquinas de Turing son una buena formalización para un algoritmo?  Porque cada programa de una máquina de Turing puede ser implementado.  ",
+      "Porque todos los algoritmos conocidos han podido ser implementados en máquinas de Turing.  ",
+      "Porque todos los otros intentos por formalizar este concepto fueron reducidos a las máquinas de Turing.  ",
+      "Los mejores intentos resultaron ser equivalentes a las máquinas de Turing.  ",
+      "Todos los intentos “razonables” fueron reducidos eﬁcientemente."
+    ],
+    "imagen": ["f5.42", "f5.43", "f5.44"],
+    "extencion": ["jpeg"],
+    "palabrasClave": [
+      "TÉCNICAS PARA LA CONSTRUCCIÓN DE UNA MT",
+      "Almacenamiento en el control ﬁnito. ",
+      "Uso de subrutinas",
+      "¿Por qué las máquinas de Turing son una buena formalización para un algoritmo? "
+    ]
+  },
+  {
+    "id": 83,
+    "unidad": 5,
+    "title": "FUNCIÓN COMPUTADA POR UNA MT",
+    "contenido": [
+      "Las MT´s pueden transformar entradas en salidas:  La entrada son todos los símbolos no blancos en la cinta en el momento inicial. ",
+      "El contenido de la cinta (los símbolos no blancos) al final de la computación (cuando la máquina se para en un estado final) se considera como salida. En otras palabras, se puede considerar una MT como la implementación de una función f: y=f(x) si para la configuración inicial q0x la máquina M para en una configuración qfy, donde qf es un estado final de M: q0x├M*qfy."
+    ]
+  },
+  {
+    "id": 84,
+    "unidad": 5,
+    "title": "SIMULACIÓN DE UNA MT EN JAVA",
+    "contenido": [
+      "Ejemplo: Simule una MT que muestre el complemento a 1 de una cadena.",
+      "import java.io.BufferedReader; ",
+      "import java.io.IOException; ",
+      "import java.io.InputStreamReader;",
+      "public class Complemento1 ",
+      "{",
+
+      "//declaracion de las variables ",
+      "public static String cadena ,cadena2, aux; ",
+      "public static BufferedReader reader; ",
+      "public static int longitud; ",
+      "public String complemeto='; ",
+      "public String arreglo[]; ",
+      "public int apuntador=1;",
+
+      "//el constructor del objeto muestra la cadena ingresada public Complemento1() ",
+      "{ ",
+      "System.out.println('Cadena: '+cadena); decodificar(cadena); ",
+      "}",
+
+      "//metodo decodificar se encarga de crear el arreglo que contendra la cadena ",
+      "public void decodificar(String dec) ",
+      "{",
+      "cadena2='#'+cadena+'#'; ",
+      "longitud= cadena2.length(); ",
+      "arreglo= new String[longitud]; ",
+      "for(int i=0; i<longitud; i++) ",
+      "{",
+      "arreglo[i]= ''+cadena2.charAt(i); ",
+      "}",
+      "e0();",
+      "}",
+      "//el metodo e0 representa el estado 0 o estado inicial public void e0() ",
+      "{",
+      "aux= arreglo[apuntador];",
+      "if(aux.equals('0')) ",
+      "{ arreglo[apuntador]= '1'; ",
+      "MoverDerecha(); ",
+      "e1(); ",
+      "}",
+      "else if(aux.equals('1')) ",
+      "{",
+      "arreglo[apuntador]= '0';",
+      "MoverDerecha(); e1(); ",
+      "}",
+      "else if(aux.equals('#')) ",
+      "{",
+      "arreglo[apuntador]= '#'; ",
+      "MoverIzquierda(); ",
+      "System.out.println('Cadena vacia'); ",
+      "}",
+      "else ",
+      "{",
+      "rechazar(aux); ",
+      "}",
+      "}",
+      "//el metodo e1 representa el estado 1 ",
+      "public void e1() ",
+      "{ aux= arreglo[apuntador]; ",
+      "if(aux.equals('0'))",
+      " {",
+      "arreglo[apuntador]= '1'; ",
+      "MoverDerecha(); ",
+      "e1();",
+      " }",
+      "else if(aux.equals('1')) ",
+      "{",
+      "arreglo[apuntador]= '0'; ",
+      "MoverDerecha();",
+      " e1();",
+      " }",
+      "else if(aux.equals('#'))",
+      "{",
+      "arreglo[apuntador]= '#'; ",
+      "MoverIzquierda(); ",
+      "e2();",
+      "} else ",
+      "{",
+      "rechazar(aux);",
+      "}",
+      "}",
+      "//el metodo e2 representa el estado 2 ",
+      "public void e2()",
+      " {",
+      "aux= arreglo[apuntador]; ",
+      "if(aux.equals('0'))",
+      " {",
+      "arreglo[apuntador]= '0'; ",
+      "MoverIzquierda(); ",
+      "e2(); ",
+      "}",
+      "else if(aux.equals('1'))",
+      "{",
+      "arreglo[apuntador]= '1';",
+      "MoverIzquierda(); ",
+      "e2();",
+      "}",
+      "else if(aux.equals('#))",
+      "{",
+      "arreglo[apuntador]= '#'; ",
+      "MoverDerecha(); ",
+      "e3(); ",
+      "}",
+      "else",
+      " {",
+      "rechazar(aux);",
+      "}",
+      "}",
+      "//el metodo e3 representa el estado 3 o de aceptacion ",
+      "public void e3() ",
+      "{",
+      "for(int i=1; i<longitud-1; i++) ",
+      "{",
+      "complemeto= complemeto+arreglo[i];",
+      " }",
+      "System.out.println('El complemeto a 1 de: '+cadena+' es: '+complemeto'); ",
+      "}",
+      "//mueve el puntero de la MT a la derecha ",
+      "public void MoverDerecha() ",
+      "{ ",
+      "apuntador++; ",
+      "}",
+      "//mueve el puntero de la MT a la izquierda ",
+      "public void MoverIzquierda() ",
+      "{ ",
+      "apuntador= apuntador-1; ",
+      "}",
+      "//si entra en este estado significa que encontro un caracter no valido public void rechazar(String noval) ",
+      "{",
+      "System.out.println('Caracter no valido'+noval);",
+      "}",
+      "//pide un numero binario y lo guarda en la cadena ",
+      "public static void main(String[] args) ",
+      "{",
+      "System.out.println('Ingrese numero binario:'); ",
+      "try",
+      "{",
+      "reader= new BufferedReader(new InputStreamReader(System.in)); ",
+      "cadena= reader.readLine(); ",
+      "}catch(IOException e)",
+      "{",
+      "e.getMessage();",
+      "}",
+      "Complemento1 obj= new Complemento1();",
+      "}",
+      "}"
     ]
   }
 ]

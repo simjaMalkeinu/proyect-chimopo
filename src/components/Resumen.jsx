@@ -22,24 +22,24 @@ export default function Resumen() {
 
   return (
     <div>
-      <Link to="/unidadaprendizage/" className="btn btn-info">
-        Volver
+      <Link to="/unidadaprendizage/" className="btn btn-block btn-info">
+        <h3>Volver</h3>
       </Link>
       {Data.map((item) => {
         if (_id == item._id) {
           return (
-            <div className="card" key={item._id}>
-              <div className="card-header">{item.title}</div>
+            <div className="card resumen" key={item._id}>
+              <div className="card-header tema">{item.title}</div>
               {/* <div className="card-body">{contenido(item.contenido)}</div> */}
               <div className="card-body">
                 {contenido(item.contenido) ? (
                   <div>
                     {item.contenido.map((line) => {
-                      return <div className="pt-2" key={line}>{line}</div>;
+                      return <div className="pt-2 contenido" key={line}>{line}</div>;
                     })}
                   </div>
                 ) : (
-                  <div>{item.contenido}</div>
+                  <div className="contenido">{item.contenido}</div>
                 )}
               </div>
                 {
@@ -50,7 +50,7 @@ export default function Resumen() {
                   ) : null
                 }
               
-              <div className="card-footer">{setUnidad(item.unidad)}</div>
+              <div className="card-footer unidad2">{setUnidad(item.unidad)}</div>
             </div>
           );
         }

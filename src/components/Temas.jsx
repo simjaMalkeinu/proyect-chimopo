@@ -85,12 +85,13 @@ export default class Temas extends Component {
           ) {
             longitud = longitud + 1;
           }
-        })},
-        {
-          longitud === 0 ? (
+        })}
+        ,
+        {longitud === 0 ? (
+          <div className="alert alert-danger coincidencias" role="alert">
             <h1>No hay coincidencias...</h1>
-          ) : null
-        }
+          </div>
+        ) : null}
       </div>
     );
   }

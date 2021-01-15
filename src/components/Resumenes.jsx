@@ -1,23 +1,3 @@
-// import React, { useState } from 'react'
-// // import { useParams } from 'react-router-dom' 
-// 
-// 
-// 
-
-// export default function Resumen() {
-//     // const {_id } = useParams();
-//     const [filtro, setFiltro] = useState([]);
-//     // console.log(Data, filtro);
-
-
-//     return (
-//         <div className="container">
-//             <Buscador setFiltro={setFiltro}/>
-//             <Temas temas={Data} />
-//         </div>
-//     )
-// }
-
 import React, { Component } from 'react'
 import Data from '../json/resumenes.json'
 import Buscador from './Buscador';
@@ -29,13 +9,13 @@ export default class Resumenes extends Component {
         super();
         this.state = {
             filtro: '',
-            buscador: '',
+            buscador: ''
         }
     }
 
     onChange = (e) => {
         const { value } = e.target;
-        // console.log(value);
+        //console.log(e.target.value);
         this.setState({buscador: value});
     }
 
