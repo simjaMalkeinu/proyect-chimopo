@@ -10,6 +10,7 @@ export default class Resumenes extends Component {
         this.state = {
             filtro: '',
             buscador: ''
+            
         }
     }
 
