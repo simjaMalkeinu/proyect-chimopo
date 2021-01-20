@@ -325,12 +325,12 @@
   },
   {
     "_id": 26,
-    "unidad": 0,
-    "title": "",
+    "unidad": 4,
+    "title": "PRUEBA",
     "contenido": []
   },
   {
-    "id": 50,
+    "_id": 50,
     "unidad": 5,
     "title": "Equivalencias de una Gramática Regular Lineal por la derecha",
     "contenido": [
@@ -352,7 +352,7 @@
     ]
   },
   {
-    "id": 51,
+    "_id": 51,
     "unidad": 5,
     "title": "Lenguaje Libre de Contexto (LLC)",
     "contenido": [
@@ -371,7 +371,7 @@
     "extencion": "jpeg"
   },
   {
-    "id": 52,
+    "_id": 52,
     "unidad": 5,
     "title": "gramática regular",
     "contenido": [
@@ -402,7 +402,7 @@
     ]
   },
   {
-    "id": 53,
+    "_id": 53,
     "unidad": 5,
     "title": "Constructor",
     "contenido": [
@@ -458,7 +458,7 @@
     "extencion": "jpeg"
   },
   {
-    "id": 54,
+    "_id": 54,
     "unidad": 5,
     "title": "Teorema de Myhill-Nerode",
     "contenido": [
@@ -504,7 +504,7 @@
     "extencion": "jpeg"
   },
   {
-    "id": 56,
+    "_id": 56,
     "unidad": 5,
     "title": "Tabla de estados distinguibles según método del Teorema de Myhill-Nerode",
     "contenido": [
@@ -515,7 +515,7 @@
     "extencion": "jpeg"
   },
   {
-    "id": 57,
+    "_id": 57,
     "unidad": 5,
     "title": "5.1.1 Método para pasar de una Gramática Regular Lineal por la Derecha a un AFN con Épsilon Transiciones",
     "contenido": [
@@ -529,7 +529,7 @@
     "palabrasClave": ["gramática regular lineal por la derecha"]
   },
   {
-    "id": 58,
+    "_id": 58,
     "unidad": 5,
     "title": "Jerarquía de Chomsky",
     "contenido": [
@@ -570,7 +570,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 59,
+    "_id": 59,
     "unidad": 5,
     "title": "Lenguaje reconocido por un autómata finito.",
     "contenido": [
@@ -581,7 +581,7 @@
     ]
   },
   {
-    "id": 60,
+    "_id": 60,
     "unidad": 5,
     "title": "Teoremas",
     "contenido": [
@@ -590,7 +590,7 @@
     ]
   },
   {
-    "id": 61,
+    "_id": 61,
     "unidad": 5,
     "title": "Corolario",
     "contenido": [
@@ -601,7 +601,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 62,
+    "_id": 62,
     "unidad": 5,
     "title": "Gramática regular lineal por la derecha",
     "contenido": [
@@ -647,7 +647,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 63,
+    "_id": 63,
     "unidad": 5,
     "title": "Método para pasar de un AFN con Épsilon Transiciones a una 181 Gramática Regular Lineal por la Derecha",
     "contenido": [
@@ -701,7 +701,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 64,
+    "_id": 64,
     "unidad": 5,
     "title": "Equivalencias de una Gramática Regular Lineal por la izquierda",
     "contenido": [
@@ -779,7 +779,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 65,
+    "_id": 65,
     "unidad": 5,
     "title": "Método para pasar de un AFN con Épsilon Transiciones a una Gramática Regular Lineal por la Izquierda ",
     "contenido": [
@@ -815,7 +815,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 66,
+    "_id": 66,
     "unidad": 5,
     "title": "Generación de los ‘Items’ de un Gramática",
     "contenido": [
@@ -877,7 +877,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 67,
+    "_id": 67,
     "unidad": 5,
     "title": "Simplificación de un AFD ",
     "contenido": [
@@ -937,7 +937,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 68,
+    "_id": 68,
     "unidad": 5,
     "title": "Máquina de Turing",
     "contenido": [
@@ -948,7 +948,7 @@
     "palabrasClave": ["MT", "incompletitud"]
   },
   {
-    "id": 69,
+    "_id": 69,
     "unidad": 5,
     "title": "¿Qué es y cómo se comporta la MT (Máquina de Turing?",
     "contenido": [
@@ -967,7 +967,7 @@
     "palabrasClave": ["P", "NP", "No polinómico"]
   },
   {
-    "id": 70,
+    "_id": 70,
     "unidad": 5,
     "title": "¿Cómo funciona una MT?",
     "contenido": [
@@ -1049,7 +1049,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 71,
+    "_id": 71,
     "unidad": 5,
     "title": "¿QUÉ OPERACIONES PUEDE REALIZAR UNA MÁQUINA DE TURING?",
     "contenido": [
@@ -1061,7 +1061,7 @@
     ]
   },
   {
-    "id": 72,
+    "_id": 72,
     "unidad": 5,
     "title": "¿Cómo se lleva a cabo el proceso de reconocimiento de una cadena con una MÁQUINA DE TURING?",
     "contenido": [
@@ -1074,7 +1074,7 @@
     ]
   },
   {
-    "id": 73,
+    "_id": 73,
     "unidad": 5,
     "title": "¿De qué depende el movimiento de una MT?",
     "contenido": [
@@ -1082,7 +1082,7 @@
     ]
   },
   {
-    "id": 74,
+    "_id": 74,
     "unidad": 5,
     "title": "¿Cuáles son los procesos que puede realizar una MT? ",
     "contenido": [
@@ -1090,7 +1090,7 @@
     ]
   },
   {
-    "id": 75,
+    "_id": 75,
     "unidad": 5,
     "title": "¿Cómo decide una MT determinar qué acción debe de tomar?",
     "contenido": [
@@ -1109,7 +1109,7 @@
     ]
   },
   {
-    "id": 76,
+    "_id": 76,
     "unidad": 5,
     "title": "CLASIFICACIÓN DE MÁQUINA TURING",
     "contenido": [
@@ -1169,7 +1169,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 77,
+    "_id": 77,
     "unidad": 5,
     "title": "LENGUAJE ACEPTADO POR UNA MT",
     "contenido": [
@@ -1197,7 +1197,7 @@
     ]
   },
   {
-    "id": 78,
+    "_id": 78,
     "unidad": 5,
     "title": "DEFINA MATEMÁTICAMENTE CUALES SON LOS LENGUAJES QUE ACEPTA UNA MT",
     "contenido": [
@@ -1206,7 +1206,7 @@
     ]
   },
   {
-    "id": 79,
+    "_id": 79,
     "unidad": 5,
     "title": "VARIACIONES DE MÁQUINAS DE TURING",
     "contenido": [
@@ -1218,7 +1218,7 @@
     ]
   },
   {
-    "id": 80,
+    "_id": 80,
     "unidad": 5,
     "title": "DIAGRAMA DE TRANSICIÓN ",
     "contenido": [
@@ -1244,7 +1244,7 @@
     ]
   },
   {
-    "id": 81,
+    "_id": 81,
     "unidad": 5,
     "title": "MT COMO GENERADORAS DE LENGUAJE ",
     "contenido": [
@@ -1257,7 +1257,7 @@
     "extencion": ["jpeg"]
   },
   {
-    "id": 82,
+    "_id": 82,
     "unidad": 5,
     "title": "Constructor",
     "contenido": [
@@ -1295,7 +1295,7 @@
     ]
   },
   {
-    "id": 83,
+    "_id": 83,
     "unidad": 5,
     "title": "FUNCIÓN COMPUTADA POR UNA MT",
     "contenido": [
@@ -1304,7 +1304,7 @@
     ]
   },
   {
-    "id": 84,
+    "_id": 84,
     "unidad": 5,
     "title": "SIMULACIÓN DE UNA MT EN JAVA",
     "contenido": [

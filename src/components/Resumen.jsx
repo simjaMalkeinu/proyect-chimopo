@@ -35,22 +35,30 @@ export default function Resumen() {
                 {contenido(item.contenido) ? (
                   <div>
                     {item.contenido.map((line) => {
-                      return <div className="pt-2 contenido" key={line}>{line}</div>;
+                      return (
+                        <div className="pt-2 contenido" key={line}>
+                          {line}
+                        </div>
+                      );
                     })}
                   </div>
                 ) : (
                   <div className="contenido">{item.contenido}</div>
                 )}
               </div>
-                {
-                  item.imagen ? (
-                  <div className="card-body"> 
-                    <img src={`../../img/${item.imagen}.${item.extencion}`} alt="" className="tema-img mx-auto"/>
-                  </div>
-                  ) : null
-                }
-              
-              <div className="card-footer unidad2">{setUnidad(item.unidad)}</div>
+              {item.imagen ? (
+                <div className="card-body">
+                  <img
+                    src={`../../img/${item.imagen}.${item.extencion}`}
+                    alt=""
+                    className="tema-img mx-auto"
+                  />
+                </div>
+              ) : null}
+
+              <div className="card-footer unidad2">
+                {setUnidad(item.unidad)}
+              </div>
             </div>
           );
         }

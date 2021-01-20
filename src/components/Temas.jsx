@@ -32,13 +32,31 @@ export default class Temas extends Component {
               return (
                 <div key={item._id} className="card style-card">
                   <div className="cabecera">
-                    <img src="../img/temas.jpg" alt="" className="img-tema" />
+                    {/* <img src={`../img/U${item.unidad}.png`} alt="" className="img-tema" />
+                    <img src={`../img/U${item.unidad}.jpg`} alt="" className="img-tema" /> */}
+                    {item.unidad === 1 ||
+                    item.unidad === 2 ||
+                    item.unidad === 3 ? (
+                      <img
+                        src={`../img/U${item.unidad}.png`}
+                        alt=""
+                        className="img-tema"
+                      />
+                    ) : (
+                      <img
+                        src={`../img/U${item.unidad}.jpg`}
+                        alt=""
+                        className="img-tema"
+                      />
+                    )}
+
                     <div className="card-body">
                       <div className="title">{item.title}</div>
-                      <div className="unidad">
-                        {this.setUnidad(item.unidad)}
-                      </div>
                     </div>
+                  </div>
+
+                  <div className="card-body">
+                    <div className="unidad">{this.setUnidad(item.unidad)}</div>
                   </div>
                   <div className="card-footer">
                     <Link
@@ -57,7 +75,24 @@ export default class Temas extends Component {
               item.title.match(expMinus) ? (
                 <div key={item._id} className="card style-card">
                   <div className="cabecera">
-                    <img src="../img/temas.jpg" alt="" className="img-tema" />
+                    {/* <img src="../img/temas.jpg" alt="" className="img-tema" /> */}
+
+                    {item.unidad === 1 ||
+                    item.unidad === 2 ||
+                    item.unidad === 3 ? (
+                      <img
+                        src={`../img/U${item.unidad}.png`}
+                        alt=""
+                        className="img-tema"
+                      />
+                    ) : (
+                      <img
+                        src={`../img/U${item.unidad}.jpg`}
+                        alt=""
+                        className="img-tema"
+                      />
+                    )}
+
                     <div className="card-body">
                       <div className="title">{item.title}</div>
                       <div className="unidad">
